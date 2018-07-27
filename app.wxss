@@ -78,4 +78,30 @@ page{
 .common-user-fame text:first-child{
   font-size:32rpx;
 }
-
+/* 其他模块公用 */
+.common-words{
+  width:100%;
+  height:90rpx;
+  line-height: 90rpx;
+  font-size:34rpx;
+  background-color:#fff;
+  margin-top:20rpx;
+  color:#333;
+  box-shadow: 0rpx 0rpx 60rpx #dbdbdb;
+}
+.common-words .head-words{
+  display:inline-block;
+  margin-left:20rpx;
+}
+.common-words image{
+  width:30rpx;
+  height:30rpx;
+  vertical-align: middle;
+}
+.common-words .more-match{
+  display:block;
+  font-size:27rpx;
+  float:right;
+  margin-right:40rpx;
+  color:#929292;
+}

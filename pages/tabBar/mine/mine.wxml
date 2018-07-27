@@ -57,10 +57,65 @@
     </view>
     <view class="line"></view>
     <view>
-      <view  class="dis-num">689</view>
+      <view class="dis-num">689</view>
       <view class="img-wraper">
         <image src="../../../images/home_btn_reach.png"></image>竞猜币</view>
     </view>
   </view>
 </view>
+<view class="cheer">
+  <text>助威积分</text>
+  <text>862</text>
+  <view>距离获奖还差3名
+    <image src="../../../images/btn_more.png"></image>
+  </view>
+</view>
 <!-- 公共部分红包竞猜币end -->
+<!-- 篮球宝贝照片 -->
+<view class="shadow-lighter">
+  <text class="head-words baby-page-head-words">即将开赛</text>
+  <view class="more-match">全部
+    <image src="../../../images/btn_more.png"></image>
+  </view>
+</view>
+<view class="baby-album">
+  <view class="image-wrapper">
+    <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+  </view>
+  <view class="image-wrapper">
+    <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+  </view>
+  <view class="image-wrapper">
+    <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+  </view>
+</view>
+<!-- 篮球宝贝照片end -->
+<!-- 公共信息页面 -->
+<view class="bottom-block">
+  <view class="block-one">
+    <text class="head-words">我的精彩</text>
+    <view class="more-match">查看全部精彩
+      <image src="../../../images/btn_more.png"></image>
+    </view>
+  </view>
+  <view class="block-one">
+    <text class="head-words">我的超级特权</text>
+    <view class="more-match">开通我的特权
+      <image src="../../../images/btn_more.png"></image>
+    </view>
+  </view>
+  <view class="block-one">
+    <text class="head-words">我的资料</text>
+    <view class="more-match">修改
+      <image src="../../../images/btn_more.png"></image>
+    </view>
+  </view>
+  <view class="block-one">
+    <text class="head-words">我的关注</text>
+    <view class="more-match">篮球宝贝、球员
+      <image src="../../../images/btn_more.png"></image>
+    </view>
+  </view>
+</view>
+<view class="bottom"></view>
+<!-- 公共信息页面end -->

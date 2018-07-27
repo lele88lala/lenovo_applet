@@ -1,11 +1,13 @@
 {
   "pages": [
-    "pages/tabBar/mine/mine",
+    "pages/home/matchList/matchList",
     "pages/tabBar/home/home",
     "pages/tabBar/match/match",
     "pages/index/index",
     "pages/tabBar/baby/baby",
-    "pages/tabBar/mall/mall"
+    "pages/tabBar/mall/mall",
+    "pages/tabBar/mine/mine"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

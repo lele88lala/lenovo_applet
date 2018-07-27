@@ -39,32 +39,6 @@ swiper{
   height:60rpx;
 }
 /* 即将开赛 */
-.kai-sai{
-  width:100%;
-  height:90rpx;
-  line-height: 90rpx;
-  font-size:34rpx;
-  background-color:#fff;
-  margin-top:20rpx;
-  color:#333;
-  box-shadow: 0rpx 0rpx 60rpx #dbdbdb;
-}
-.kai-sai .head-words{
-  display:inline-block;
-  margin-left:20rpx;
-}
-.kai-sai image{
-  width:30rpx;
-  height:30rpx;
-  vertical-align: middle;
-}
-.kai-sai .more-match{
-  display:block;
-  font-size:27rpx;
-  float:right;
-  margin-right:40rpx;
-  color:#929292;
-}
 .scroll-view{
   width:100%;
 }
