@@ -35,6 +35,7 @@ page{
   left:50%;
   transform: translateX(-50%);
   top:35rpx;
+  box-shadow: 0 0 10rpx #dbdbdb;
 }
 .common-head-pic{
   width:140rpx;
@@ -46,8 +47,6 @@ page{
   position:relative;
   display:inline-block;
   vertical-align: middle;
-  margin-left:20rpx;
-  margin-top:50rpx;
 }
 .common-name{
   color:#333;

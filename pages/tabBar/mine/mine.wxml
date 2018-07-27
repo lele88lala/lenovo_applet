@@ -3,7 +3,7 @@
   <!-- 球员头部信息 -->
   <view class="common-user-info" wx:if="">
     <image class="common-head-pic me-head" src="../../../images/home_btn_guess.png"></image>
-    <view class="common-info-detail">
+    <view class="common-info-detail player-detail">
       <view class="common-name">李源</view>
       <view class="common-user-school">西北工业大学</view>
       <view class="common-user-team">西北工业大学骑士队</view>
@@ -21,8 +21,20 @@
     <image class="common-head-pic me-head" src="../../../images/home_btn_guess.png"></image>
     <view class="common-info-detail">
       <view class="common-name">李源</view>
+      <view class="band-phone">绑定手机</view>
+      <!-- <view class="common-user-school">西北工业大学</view> -->
+    </view>
+    <view class="sign-icon">签到</view>
+  </view>
+  <!-- 普通头部信息end -->
+  <!-- 篮球宝贝头部信息 -->
+  <view class="common-user-info">
+    <image class="common-head-pic baby-head" src="../../../images/home_btn_guess.png"></image>
+    <view class="common-info-detail baby-detail">
+      <view class="common-name">李源</view>
       <view class="common-user-school">西北工业大学</view>
-      <view class="common-user-team">西北工业大学骑士队</view>
+      <view class="common-user-team">双子座 172cm</view>
+      <view class="common-user-team">宣言： 不负青春，热爱生活</view>
       <view class="common-user-fame">人气
         <text>864</text>
         <text>总榜第三名</text>
@@ -31,5 +43,22 @@
     </view>
     <view class="sign-icon">签到</view>
   </view>
-  <!-- 普通头部信息end -->
+  <!-- 篮球宝贝头部信息end -->
 </view>
+<!-- 公共部分红包竞猜币 -->
+<view class="packet-quize">
+  <view>
+    <view>￥25.5
+      <text>元</text>
+    </view>
+    <view>
+      <image src="../../../images/home_btn_reach.png"></image>红包</view>
+  </view>
+  <view class="line"></view>
+  <view>
+    <view>6898</view>
+    <view>
+      <image src="../../../images/home_btn_reach.png"></image>红包</view>
+  </view>
+</view>
+<!-- 公共部分红包竞猜币end -->
