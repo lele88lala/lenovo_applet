@@ -1,0 +1,35 @@
+<!--pages/tabBar/mine/mine.wxml-->
+<view class="common-top-back">
+  <!-- 球员头部信息 -->
+  <view class="common-user-info" wx:if="">
+    <image class="common-head-pic me-head" src="../../../images/home_btn_guess.png"></image>
+    <view class="common-info-detail">
+      <view class="common-name">李源</view>
+      <view class="common-user-school">西北工业大学</view>
+      <view class="common-user-team">西北工业大学骑士队</view>
+      <view class="common-user-fame">人气
+        <text>864</text>
+        <text>总榜第三名</text>
+        <text>校榜第1名</text>
+      </view>
+    </view>
+    <view class="sign-icon">签到</view>
+  </view>
+  <!-- 球员头部信息end -->
+  <!-- 普通用户头部信息 -->
+  <view class="common-user-info" wx:if="">
+    <image class="common-head-pic me-head" src="../../../images/home_btn_guess.png"></image>
+    <view class="common-info-detail">
+      <view class="common-name">李源</view>
+      <view class="common-user-school">西北工业大学</view>
+      <view class="common-user-team">西北工业大学骑士队</view>
+      <view class="common-user-fame">人气
+        <text>864</text>
+        <text>总榜第三名</text>
+        <text>校榜第1名</text>
+      </view>
+    </view>
+    <view class="sign-icon">签到</view>
+  </view>
+  <!-- 普通头部信息end -->
+</view>

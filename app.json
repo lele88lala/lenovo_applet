@@ -1,11 +1,66 @@
 {
-  "pages":[
-    "pages/index/index"
+  "pages": [
+    "pages/tabBar/mine/mine",
+    "pages/tabBar/home/home",
+    "pages/tabBar/match/match",
+    "pages/index/index",
+    "pages/tabBar/baby/baby",
+    "pages/tabBar/mall/mall"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#929292",
+    "selectedColor": "#6e68f6",
+    "borderStyle": "#000",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "list": [
+      {
+        "selectedIconPath": "images/tab_btn_home_page_pre.png",
+        "iconPath": "images/tab_btn_home_page.png",
+        "pagePath": "pages/tabBar/home/home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/tab_btn_match_pre.png",
+        "iconPath": "images/tab_btn_match.png",
+        "pagePath": "pages/tabBar/match/match",
+        "text": "比赛"
+      },
+      {
+        "selectedIconPath": "images/tab_btn_baby_pre.png",
+        "iconPath": "images/tab_btn_baby.png",
+        "pagePath": "pages/tabBar/baby/baby",
+        "text": "宝贝"
+      },
+      {
+        "selectedIconPath": "images/tab_btn_mall_pre.png",
+        "iconPath": "images/tab_btn_mall.png",
+        "pagePath": "pages/tabBar/mall/mall",
+        "text": "商城"
+      },
+      {
+        "selectedIconPath": "images/tab_btn_my_pre.png",
+        "iconPath": "images/tab_btn_my.png",
+        "pagePath": "pages/tabBar/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "subPackages": [
+    {
+      "root": "pages/common",
+      "pages": []
+    }
+  ],
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000,
+    "uploadFile": 10000
   }
 }

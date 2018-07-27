@@ -1,0 +1,103 @@
+<!--pages/tabBar/home/home.wxml-->
+<!-- 轮播图 -->
+<swiper indicator-dots="true" indicator-active-color="#fff" autoplay="true" interval="3000" duration="1000">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 轮播图 -->
+<!-- 导航 -->
+<view class="nav">
+  <view class="nav-block">
+    <image src="../../../images/home_btn_sign_up.png" />
+    <text>参赛报名</text>
+  </view>
+  <view class="nav-block">
+    <image src="../../../images/home_btn_guess.png" />
+    <text>竞猜闯关</text>
+  </view>
+  <view class="nav-block">
+    <image src="../../../images/home_btn_reach.png" />
+    <text>红包签到</text>
+  </view>
+  <view class="nav-block">
+    <image src="../../../images/home_btn_rankings.png" />
+    <text>人气排行</text>
+  </view>
+  <view class="nav-block">
+    <image src="../../../images/home_btn_cheer_rankings.png" />
+    <text>助威积分</text>
+  </view>
+</view>
+<!-- 导航 -->
+<!-- 即将开赛 -->
+<view class="kai-sai">
+  <text class="head-words">即将开赛</text>
+  <view class="more-match">全部比赛
+    <image src="../../../images/btn_more.png"></image>
+  </view>
+</view>
+<scroll-view scroll-x="true" scroll-with-animation="false">
+  <view class="match">
+    <view class="one-match">
+      <view class="left">竞猜</view>
+      <view class="right">
+        <view>
+          <image src="../../../images/home_btn_guess.png"></image>
+          <text class="school">西交大经管里aaaa</text>
+        </view>
+        <view>
+          <image src="../../../images/home_btn_guess.png"></image>
+          <text class="school">西交大经管</text>
+        </view>
+        <view class="time">03-26 19:30</view>
+      </view>
+    </view>
+    <view class="one-match">
+      <view class="left">竞猜</view>
+      <view class="right">
+        <view>
+          <image src="../../../images/home_btn_guess.png"></image>
+          <text class="school">西交大经管里aaaa</text>
+        </view>
+        <view>
+          <image src="../../../images/home_btn_guess.png"></image>
+          <text class="school">西交大经管</text>
+        </view>
+        <view class="time">03-26 19:30</view>
+      </view>
+    </view>
+    <view class="one-match">
+      <view class="left">竞猜</view>
+      <view class="right">
+        <view>
+          <image src="../../../images/home_btn_guess.png"></image>
+          <text class="school">西交大经管里aaaa</text>
+        </view>
+        <view>
+          <image src="../../../images/home_btn_guess.png"></image>
+          <text class="school">西交大经管</text>
+        </view>
+        <view class="time">03-26 19:30</view>
+      </view>
+    </view>
+  </view>
+</scroll-view>
+<!-- 即将开赛 -->
+<!-- 篮球宝贝 -->
+<view class="kai-sai">
+  <text class="head-words">篮球宝贝</text>
+  <view class="more-match">查看更多
+    <image src="../../../images/btn_more.png"></image>
+  </view>
+</view>
+<view class="img-list">
+<image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+<image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+</view>
+<!-- 篮球宝贝 -->
+<!-- 超级特权 -->
+<cover-image class="super-rights" src="../../../images/btn_exorbitant_privileges.png"></cover-image>
+<!-- 超级特权 -->

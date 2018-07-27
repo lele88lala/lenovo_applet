@@ -1,33 +1,22 @@
-// pages/index/index.js
+// pages/tabBar/home/home.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    imgUrls: [
+ 'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+    ]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    //获得dialog组件
-    this.dialoge = this.selectComponent("#dialog");
-  },
-  showDialog() {
-    this.dialoge.showDialog();
-  },
-
-  //取消事件
-  cancel() {
-    console.log('你点击了取消');
-    this.dialoge.hideDialog();
-  },
-
-  //确认事件
-  makesure() {
-    console.log('你点击了确定');
-    this.dialoge.hideDialog();
+  
   },
 
   /**
