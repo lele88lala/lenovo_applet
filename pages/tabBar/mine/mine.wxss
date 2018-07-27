@@ -37,6 +37,10 @@
   margin-left:20rpx;
 }
 /* 红包竞猜币 */
+.packet-wrapper{
+  width:100%;
+  text-align: center;
+}
 .packet-quize{
   display:inline-flex;
   width:95%;
@@ -44,9 +48,28 @@
   border-radius: 12rpx;
   flex-direction: row;
   justify-content: space-around;
-  margin:0 auto;
+  margin-top:110rpx;
+  box-shadow: 0 0 10rpx #dbdbdb;
+  align-items: center;
+  padding:30rpx 0 10rpx 0;
 }
 .packet-quize image{
-  width:60rpx;
-  height:60rpx;
+  width:50rpx;
+  height:50rpx;
+  vertical-align: middle;
 }
+.packet-quize .dis-num{
+  color:#333;
+  font-size:32rpx;
+}
+.packet-quize .img-wraper{
+  color:#929292;
+  font-size:26rpx;
+  margin-top:10rpx;
+}
+.packet-quize .line{
+  height:80rpx;
+  width:1rpx;
+  background-color:#929292;
+}
+

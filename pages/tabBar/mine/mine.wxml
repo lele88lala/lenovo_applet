@@ -46,19 +46,21 @@
   <!-- 篮球宝贝头部信息end -->
 </view>
 <!-- 公共部分红包竞猜币 -->
-<view class="packet-quize">
-  <view>
-    <view>￥25.5
-      <text>元</text>
+<view class="packet-wrapper">
+  <view class="packet-quize">
+    <view>
+      <view class="dis-num">￥25.5
+        <text>元</text>
+      </view>
+      <view class="img-wraper">
+        <image src="../../../images/home_btn_reach.png"></image>红包</view>
     </view>
+    <view class="line"></view>
     <view>
-      <image src="../../../images/home_btn_reach.png"></image>红包</view>
-  </view>
-  <view class="line"></view>
-  <view>
-    <view>6898</view>
-    <view>
-      <image src="../../../images/home_btn_reach.png"></image>红包</view>
+      <view  class="dis-num">689</view>
+      <view class="img-wraper">
+        <image src="../../../images/home_btn_reach.png"></image>竞猜币</view>
+    </view>
   </view>
 </view>
 <!-- 公共部分红包竞猜币end -->
