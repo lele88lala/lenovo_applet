@@ -1,2 +1,199 @@
 <!--pages/home/profitRank/profitRank.wxml-->
-<text>pages/home/profitRank/profitRank.wxml</text>
+<view class="wrapper">
+  <view class="join-words">参与竞猜赢大奖</view>
+  <view class="gui-ze">奖品规则</view>
+  <view class="list-wrapper">
+    <view class="title">
+      <view>名次</view>
+      <view>头像</view>
+      <view>昵称</view>
+      <view>场次</view>
+      <view>盈利</view>
+    </view>
+    <view class="list-bottom">
+      <view class="list-one">
+        <view class="text-on-one">1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view class="text-on-two">2</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view class="text-on-three">3</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+      <view class="list-one">
+        <view>1</view>
+        <view>
+          <image src="../../../images/tab_btn_mall.png"></image>
+        </view>
+        <view>路书豪</view>
+        <view>98</view>
+        <view>7689</view>
+      </view>
+    </view>
+  </view>
+  <view class="my-rank">
+    <view class="my-rank-detail">
+      <view>1</view>
+      <view>
+        <image src="../../../images/tab_btn_mall.png"></image>
+      </view>
+      <view>路书豪</view>
+      <view>98</view>
+      <view>7689</view>
+    </view>
+
+  </view>
+</view>

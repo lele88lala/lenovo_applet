@@ -1,1 +1,94 @@
 /* pages/home/profitRank/profitRank.wxss */
+.wrapper{
+  background-color:#292162;
+}
+.wrapper .join-words{
+  color:#fff;
+  width:100%;
+  text-align: center;
+  font-size:39rpx;
+  letter-spacing: 4rpx;
+  padding-top:34rpx;
+}
+.wrapper .gui-ze{
+  width:150rpx;
+  margin:0 auto;
+  height:50rpx;
+  line-height: 50rpx;
+  border-radius: 25rpx;
+  font-size:27rpx;
+  color:#fff;
+  text-align: center;
+  margin-top:30rpx;
+  box-shadow: 0 0 10rpx #fff;
+  background:linear-gradient(to right,#6e68f6,#e347aa);
+}
+.list-wrapper{
+  width:92%;
+  margin:0 auto;
+  margin-top:20rpx;
+  background-color:#fff;
+  border-radius: 12rpx;
+}
+.list-wrapper .title{
+  width:100%;
+  display:inline-flex;
+  justify-content: space-around;
+  color:#fff;
+  font-size:29rpx;
+  height:70rpx;
+  line-height: 70rpx;
+  border-radius: 12rpx;
+  background:linear-gradient(to right,#6e68f6,#e347aa);
+  margin-bottom:15rpx;
+}
+.list-bottom{
+  background-color:#fff;
+  text-align: center;
+}
+.list-bottom image{
+  width:40rpx;
+  height:40rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+ .list-one{
+  width:96%;
+  display:inline-flex;
+  justify-content: space-around;
+  background-color:#d2e3fe;
+  color:#333;
+  font-size:24rpx;
+  height:55rpx;
+  line-height:55rpx;
+  box-shadow: 0 0 5rpx #dbdbdb;
+  margin-top:10rpx;
+}
+.my-rank image{
+  width:40rpx;
+  height:40rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.my-rank .my-rank-detail{
+  display:inline-flex;
+  justify-content: space-around;
+  width:100%;
+  color:#fff;
+  font-size:29rpx;
+  height:80rpx;
+  line-height:80rpx;
+  background-color:rgba(139, 180, 251, .6)
+}
+.text-on-one{
+  color:#f6b100;
+  font-weight: 900;
+}
+.text-on-two{
+  color:#8dd3ee;
+  font-weight: 900;
+}
+.text-on-three{
+  color:#f59d5f;
+  font-weight: 900;
+}
