@@ -35,8 +35,11 @@
   color:#929292;
   font-size:24rpx;
   width:100%;
-  margin-left:50rpx;
   padding-top:20rpx;
+}
+.match-wrapper .one-match-block .time view{
+  width:100rpx;
+  margin-left:50rpx;
 }
 
 .match-wrapper .one-match-block .left{

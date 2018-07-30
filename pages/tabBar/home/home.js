@@ -71,8 +71,8 @@ Page({
    * 跳转到全部比赛页
    */
   toMoreMatch:function(){
-    wx.navigateTo({
-      url: '../../home/matchList/matchList'
+    wx.switchTab({
+      url: '../match/match'
     })
   }
 })

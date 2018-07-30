@@ -1,0 +1,515 @@
+<!--pages/team/eventDetail/event_detail.wxml-->
+<view class="wrapper">
+  <!-- 顶部信息 begin -->
+  <view class="top-info">
+    <image class="bg-img" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    <view class="match-name">城市传奇篮球争霸赛传奇篮球争霸赛</view>
+    <view class="event-info">
+      <view class="team">
+        <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+        <view>朝阳老炮队朝阳老炮队</view>
+      </view>
+      <view class="score-info">
+        <text class="score">106</text>
+        <text class="vs">vs</text>
+        <text class="score">102</text>
+        <view class="time">2018年02月03日13:00</view>
+      </view>
+      <view class="team">
+        <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+        <view>朝阳老炮队朝阳老炮队</view>
+      </view>
+    </view>
+  </view>
+  <!-- 顶部信息 end -->
+  <!-- 赛况及竞猜tab部分 -->
+  <view class="tab">
+    <view data-type='1' class="{{showBlock ===true?'tab-one tab-on':'tab-one'}}" bindtap='toBlock'>赛况</view>
+    <view data-type='2' class="{{showBlock === false?'tab-two tab-on':'tab-two'}}" bindtap='toBlock'>竞猜</view>
+  </view>
+  <!-- 赛况及竞猜tab部分end -->
+
+  <!-- 赛况模块 -->
+  <!-- 赛况信息 begin -->
+  <block wx:if="{{showBlock}}">
+    <view class="tips-title">
+      赛况
+    </view>
+    <view class="data-wrapper">
+      <view class="table">
+        <view class="tr tr-top">
+          <view class="th">球队</view>
+          <view class="th">1st</view>
+          <view class="th">2nd</view>
+          <view class="th">3rd</view>
+          <view class="th">4th</view>
+          <view class="th">5th</view>
+          <view class="th">总分</view>
+        </view>
+        <view class="tr tr-one">
+          <view class="td">
+            <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+          </view>
+          <view class="td">23</view>
+          <view class="td">26</view>
+          <view class="td">23</view>
+          <view class="td">26</view>
+          <view class="td">23</view>
+          <view class="td">106</view>
+        </view>
+        <view class="tr">
+          <view class="td">
+            <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+          </view>
+          <view class="td">23</view>
+          <view class="td">26</view>
+          <view class="td">23</view>
+          <view class="td">26</view>
+          <view class="td">23</view>
+          <view class="td">106</view>
+        </view>
+      </view>
+    </view>
+    <!-- 赛况信息 end -->
+    <!-- 本场最佳 begin -->
+    <view class="tips-title">
+      本场最佳
+    </view>
+    <view class="data-wrapper">
+      <view class="mvp-item">
+        <view class="mvp-left">
+          <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+          <text>张某某某某</text>
+        </view>
+        <view class="mvp-mid">
+          <text>41</text>
+          <text class="mvp-mid-score">得分</text>
+          <text>40</text>
+        </view>
+        <view class="mvp-right">
+          <text>张某某</text>
+          <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+        </view>
+      </view>
+      <view class="mvp-item">
+        <view class="mvp-left">
+          <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+          <text>张某某某某</text>
+        </view>
+        <view class="mvp-mid">
+          <text>41</text>
+          <text class="mvp-mid-score">得分</text>
+          <text>40</text>
+        </view>
+        <view class="mvp-right">
+          <text>张某某</text>
+          <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+        </view>
+      </view>
+      <view class="mvp-item last-item">
+        <view class="mvp-left">
+          <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+          <text>张某某某某</text>
+        </view>
+        <view class="mvp-mid">
+          <text>41</text>
+          <text class="mvp-mid-score">得分</text>
+          <text>40</text>
+        </view>
+        <view class="mvp-right">
+          <text>张某某</text>
+          <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+        </view>
+      </view>
+    </view>
+    <!-- 本场最佳 end -->
+    <!-- 球队统计 begin -->
+    <view class="tips-title">
+      球队统计
+    </view>
+    <view class="data-wrapper">
+      <view class="team-vs">
+        <image class="vs-left-img" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+        <text>vs</text>
+        <image class="vs-right-img" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+      </view>
+      <view class="dui-bi">
+        <view class="dui-bi-data-l">50</view>
+        <view class="dui-bi-mid">
+          <view>篮板</view>
+          <view class="mid-line">
+            <view class="mid-l">
+              <text class="mid-line-l"></text>
+            </view>
+            <view class="mid-r">
+              <text class="mid-line-r"></text>
+            </view>
+          </view>
+        </view>
+        <view class="dui-bi-data-r">50</view>
+      </view>
+      <view class="dui-bi">
+        <view class="dui-bi-data-l">50</view>
+        <view class="dui-bi-mid">
+          <view>助攻</view>
+          <view class="mid-line">
+            <view class="mid-l">
+              <text class="mid-line-l"></text>
+            </view>
+            <view class="mid-r">
+              <text class="mid-line-r"></text>
+            </view>
+          </view>
+        </view>
+        <view class="dui-bi-data-r">50</view>
+      </view>
+      <view class="dui-bi">
+        <view class="dui-bi-data-l">50</view>
+        <view class="dui-bi-mid">
+          <view>罚球</view>
+          <view class="mid-line">
+            <view class="mid-l">
+              <text class="mid-line-l"></text>
+            </view>
+            <view class="mid-r">
+              <text class="mid-line-r"></text>
+            </view>
+          </view>
+        </view>
+        <view class="dui-bi-data-r">50</view>
+      </view>
+      <view class="dui-bi">
+        <view class="dui-bi-data-l">50</view>
+        <view class="dui-bi-mid">
+          <view>三分</view>
+          <view class="mid-line">
+            <view class="mid-l">
+              <text class="mid-line-l"></text>
+            </view>
+            <view class="mid-r">
+              <text class="mid-line-r"></text>
+            </view>
+          </view>
+        </view>
+        <view class="dui-bi-data-r">50</view>
+      </view>
+      <view class="dui-bi">
+        <view class="dui-bi-data-l">50</view>
+        <view class="dui-bi-mid">
+          <view>犯规</view>
+          <view class="mid-line">
+            <view class="mid-l">
+              <text class="mid-line-l"></text>
+            </view>
+            <view class="mid-r">
+              <text class="mid-line-r"></text>
+            </view>
+          </view>
+        </view>
+        <view class="dui-bi-data-r">50</view>
+      </view>
+      <view class="dui-bi">
+        <view class="dui-bi-data-l">50</view>
+        <view class="dui-bi-mid">
+          <view>抢断</view>
+          <view class="mid-line">
+            <view class="mid-l">
+              <text class="mid-line-l"></text>
+            </view>
+            <view class="mid-r">
+              <text class="mid-line-r"></text>
+            </view>
+          </view>
+        </view>
+        <view class="dui-bi-data-r">50</view>
+      </view>
+      <view class="dui-bi">
+        <view class="dui-bi-data-l">50</view>
+        <view class="dui-bi-mid">
+          <view>盖帽</view>
+          <view class="mid-line">
+            <view class="mid-l">
+              <text class="mid-line-l"></text>
+            </view>
+            <view class="mid-r">
+              <text class="mid-line-r"></text>
+            </view>
+          </view>
+        </view>
+        <view class="dui-bi-data-r">50</view>
+      </view>
+      <view class="dui-bi last-dui-bi">
+        <view class="dui-bi-data-l">50</view>
+        <view class="dui-bi-mid">
+          <view>失误</view>
+          <view class="mid-line">
+            <view class="mid-l">
+              <text class="mid-line-l"></text>
+            </view>
+            <view class="mid-r">
+              <text class="mid-line-r"></text>
+            </view>
+          </view>
+        </view>
+        <view class="dui-bi-data-r">50</view>
+      </view>
+
+    </view>
+    <!-- 球队统计 end -->
+    <!-- 球队数据2 begin -->
+    <view class="tips-title">
+      东单菜鸡对
+    </view>
+    <view class="data-wrapper">
+      <view class="table table-team">
+        <view class="tr tr-top">
+          <view class="th p-name">球员</view>
+          <view class="th">首发</view>
+          <view class="th">得分</view>
+          <view class="th">篮板</view>
+          <view class="th">助攻</view>
+          <view class="th">二分</view>
+          <view class="th">三分</view>
+          <view class="th">罚球</view>
+          <view class="th">抢断</view>
+          <view class="th">盖帽</view>
+        </view>
+        <view class="tr tr-one">
+          <view class="td p-name">林海</view>
+          <view class="td">是</view>
+          <view class="td">26</view>
+          <view class="td">23</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+        </view>
+        <view class="tr tr-one">
+          <view class="td p-name">林海</view>
+          <view class="td">是</view>
+          <view class="td">26</view>
+          <view class="td">23</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+        </view>
+        <view class="tr tr-one">
+          <view class="td p-name">林海</view>
+          <view class="td">是</view>
+          <view class="td">26</view>
+          <view class="td">23</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+        </view>
+        <view class="tr tr-one">
+          <view class="td p-name">林海</view>
+          <view class="td">是</view>
+          <view class="td">26</view>
+          <view class="td">23</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+        </view>
+      </view>
+    </view>
+    <!-- 球队数据1 end -->
+    <!-- 球队数据1 begin -->
+    <view class="tips-title">
+      朝阳老炮队
+    </view>
+    <view class="data-wrapper data-bottom">
+      <view class="table table-team">
+        <view class="tr tr-top">
+          <view class="th p-name">球员</view>
+          <view class="th">首发</view>
+          <view class="th">得分</view>
+          <view class="th">篮板</view>
+          <view class="th">助攻</view>
+          <view class="th">二分</view>
+          <view class="th">三分</view>
+          <view class="th">罚球</view>
+          <view class="th">抢断</view>
+          <view class="th">盖帽</view>
+        </view>
+        <view class="tr tr-one">
+          <view class="td p-name">林海</view>
+          <view class="td">是</view>
+          <view class="td">26</view>
+          <view class="td">23</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+        </view>
+        <view class="tr tr-one">
+          <view class="td p-name">林海</view>
+          <view class="td">是</view>
+          <view class="td">26</view>
+          <view class="td">23</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+        </view>
+        <view class="tr tr-one">
+          <view class="td p-name">林海</view>
+          <view class="td">是</view>
+          <view class="td">26</view>
+          <view class="td">23</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+        </view>
+        <view class="tr tr-one">
+          <view class="td p-name">林海</view>
+          <view class="td">是</view>
+          <view class="td">26</view>
+          <view class="td">23</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+          <view class="td">26</view>
+          <view class="td">2/3</view>
+          <view class="td">3/6</view>
+        </view>
+      </view>
+    </view>
+  </block>
+  <!-- 无数据情况 -->
+  <view class="no-data" style="display:none">
+    比赛未开始
+  </view>
+  <!-- 无数据情况结束 -->
+  <!-- 赛况模块 end -->
+  <view wx:if="{{!showBlock}}" class="all-wrapper">
+    <view class="com-top-words">{{comTopWords}}</view>
+    <view class="com-wrapper">
+      <view class="school-name-wrapper">
+        <view class="school-name">
+          <text class="school-name-word">西安交通大学</text>
+        </view>
+        <view class="school-name">
+          <text class="school-name-word">陕西农林科技大学啊啊啊啊啊啊</text>
+        </view>
+        <view class="school-vs-wrapper">
+          <view class="school-vs">vs</view>
+        </view>
+      </view>
+      <view class="event-wrapper" style="display:none">
+        <view class="com-left">
+          <view bindtap='guess' class="victory victory-left">胜</view>
+          <view class="detail-info">
+            <view class="zhi-on">55%支持</view>
+            <view>赔率1.9</view>
+          </view>
+        </view>
+        <view class="com-mid"></view>
+        <view class="com-right">
+          <view bindtap='guess' class="victory victory-right">胜</view>
+          <view class="detail-info">
+            <view>55%支持</view>
+            <view>赔率1.9</view>
+          </view>
+        </view>
+      </view>
+      <!-- 竞猜结束 -->
+      <view class="event-wrapper">
+        <view class="com-left">
+          <view bindtap='guess' class="jing-cai-done">负</view>
+          <view class="detail-info">
+            <view class="zhi-on">55%支持</view>
+            <view>赔率1.9</view>
+          </view>
+        </view>
+        <view class="com-mid"></view>
+        <view class="com-right">
+          <view bindtap='guess' class="jing-cai-done text-on">胜</view>
+          <view class="detail-info">
+            <view>55%支持</view>
+            <view>赔率1.9</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="baby-cheer-wrapper">
+      <view class="top-words">
+        <view>篮球宝贝来助攻</view>
+      </view>
+      <view class="bot-block">
+        <view class="bot-block-one">
+          <image src="../../../images/tab_btn_mall.png"></image>
+          <view class="baby-name">篮球女神晴子</view>
+          <view class="support">支持</view>
+          <view class="school-name">"西安交通大学"</view>
+        </view>
+        <view class="bot-block-one">
+          <image src="../../../images/tab_btn_mall.png"></image>
+          <view class="baby-name">篮球女神晴子</view>
+          <view class="support">支持</view>
+          <view class="school-name">"西安交通大学"</view>
+        </view>
+        <view class="bot-block-one">
+          <image src="../../../images/tab_btn_mall.png"></image>
+          <view class="baby-name">篮球女神晴子</view>
+          <view class="support">支持</view>
+          <view class="school-name">"西安交通大学"</view>
+        </view>
+        <view class="bot-block-one">
+          <image src="../../../images/tab_btn_mall.png"></image>
+          <view class="baby-name">篮球女神晴子</view>
+          <view class="support">支持</view>
+          <view class="school-name">"西安交通大学"</view>
+        </view>
+        <view class="bot-block-one">
+          <image src="../../../images/tab_btn_mall.png"></image>
+          <view class="baby-name">篮球女神晴子</view>
+          <view class="support">支持</view>
+          <view class="school-name">"西安交通大学"</view>
+        </view>
+      </view>
+    </view>
+    <!-- 竞猜弹框 -->
+    <view class="meng-ceng" bindtap='cancelMeng' wx:if="{{showJingCai}}"></view>
+    <view class="tan-wrapper" wx:if="{{showJingCai}}">
+      <view class="tan-top">
+        <view class="tan-top-word">
+          <text>投注：西安交通大学 胜</text>
+          <view>投注规则</view>
+        </view>
+        <view class="num-wrapper">
+          <view data-type="1" bindtap='touZhu' class="{{touZhuColor==1?'text-on':''}}" data-coin-num="400">ALL IN</view>
+          <view data-type="2" bindtap='touZhu' class="{{touZhuColor==2?'text-on':''}}" data-coin-num="100">100竞猜币</view>
+          <view data-type="3" bindtap='touZhu' class="{{touZhuColor==3?'text-on':''}}" data-coin-num="200">200竞猜币</view>
+          <view data-type="4" bindtap='touZhu' class="{{touZhuColor==4?'text-on':''}}" data-coin-num="300">300竞猜币</view>
+        </view>
+        <view class="guding-word">投注赔率：1.9</view>
+        <view class="guding-word">猜对获得：190竞猜币</view>
+      </view>
+      <view class="tan-bottom">
+        <view class="tan-bottom-left">
+          <image class="coin-icon" src="../../../images/tab_btn_match_pre.png"></image>500竞猜币</view>
+        <view class="tan-bottom-right">{{coinWords}}</view>
+        <image class="red-packet-icon" src="../../../images/tab_btn_mall.png"></image>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,13 +1,14 @@
 {
   "pages": [
-    "pages/home/matchList/matchList",
+    "pages/home/profitRank/profitRank",
+    "pages/home/eventInfo/eventInfo",
     "pages/tabBar/home/home",
     "pages/tabBar/match/match",
     "pages/index/index",
     "pages/tabBar/baby/baby",
     "pages/tabBar/mall/mall",
-    "pages/tabBar/mine/mine"
-    
+    "pages/tabBar/mine/mine",
+    "components/redPacket/redPacket"
   ],
   "window": {
     "backgroundTextStyle": "light",

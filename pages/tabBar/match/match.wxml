@@ -1,9 +1,12 @@
 <!--pages/home/matchList/matchList.wxml-->
-<view class="top-select">选择学校</view>
+
+<picker class="top-select" bindchange="bindPickerChange" value="{{index}}" range="{{array}}" wx:if="{{array.length>1}}" class="act-convert">
+<view class="top-select" >选择学校</view>
+</picker>
 <view class="date-mark">今天</view>
 <view class="match-wrapper">
-  <view class="one-match-block">
-    <view class="time">13:00</view>
+  <view class="one-match-block" bindtap='eventInfo'>
+    <view class="time"><view>13:00</view></view>
     <view class="event-info">
       <view class="left">
         <view>西安交通大学勇士队</view>
@@ -19,7 +22,7 @@
     </view>
   </view>
   <view class="one-match-block">
-    <view class="time">13:00</view>
+    <view class="time"><view>13:00</view></view>
     <view class="event-info">
       <view class="left">
         <view>西安交通大学勇士队</view>
@@ -38,7 +41,7 @@
 <view class="date-mark">06月02日 星期六</view>
 <view class="match-wrapper">
   <view class="one-match-block">
-    <view class="time">13:00</view>
+    <view class="time"><view>13:00</view></view>
     <view class="event-info">
       <view class="left">
         <view>西安交通大学勇士队</view>
@@ -54,7 +57,7 @@
     </view>
   </view>
   <view class="one-match-block">
-    <view class="time">13:00</view>
+    <view class="time"><view>13:00</view></view>
     <view class="event-info">
       <view class="left">
         <view>西安交通大学勇士队</view>
@@ -70,3 +73,10 @@
     </view>
   </view>
 </view>
+
+<!-- 学校弹出层 -->
+<view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+  </picker>
+</view>
+<!-- 学校弹出层end -->

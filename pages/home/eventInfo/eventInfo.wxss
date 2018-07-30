@@ -1,0 +1,563 @@
+/* pages/team/eventDetail/event_detail.wxss */
+.wrapper{
+  overflow-x: hidden;
+}
+ .top-info{
+  position:relative;
+  width:100%;
+  height:355rpx;
+} 
+.top-info .bg-img{
+  position:absolute;
+  width:100%;
+  height:355rpx;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.match-name{
+  text-align: center;
+  margin:0 auto;
+  color:#fff;
+  font-size:35rpx;
+  padding-top:40rpx;
+  width:650rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 5rpx;
+}
+.event-info{
+  width:100%;
+  display:inline-flex;
+  margin-left:40rpx;
+  margin-top:40rpx;
+}
+.team image{
+  width:100rpx;
+  height:100rpx;
+  border-radius: 50%;
+}
+.team {
+  color:#fff;
+  font-size:28rpx;
+  text-align: center;
+}
+.team view{
+  width:180rpx;
+  margin-top:15rpx;
+}
+.score-info{
+  text-align: center;
+  width:320rpx;
+  margin-top:20rpx;
+}
+.score{
+  color:#dbdbdb;
+  font-size:44rpx;
+  vertical-align: middle;
+}
+.vs{
+  color:#fff;
+  font-size:35rpx;
+  vertical-align: top;
+  padding-left:40rpx;
+  padding-right:40rpx;
+}
+.time{
+  color:#929292;
+  font-size:20rpx;
+  margin-top:50rpx;
+  letter-spacing: 3rpx;
+} 
+.tips-title{
+  width:100%;
+  font-size:31rpx;
+  color:#222;
+  height:100rpx;
+  line-height: 100rpx;
+  padding-left:20rpx;
+}
+/* 赛况 */
+.data-wrapper{
+    box-shadow: 0 0 20rpx #dbdbdb;
+    background-color:#fff;
+}
+.data-wrapper .table{
+  width:100%;
+  font-size:27rpx;
+  color:#333;
+}
+.tr {
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  text-align: center;
+}
+.th,.td{
+  text-align: center;
+  width:90rpx;
+  padding-top:20rpx;
+  padding-bottom:10rpx;
+}
+.tr-top{
+  border-bottom:1rpx solid #dbdbdb;
+  color:#939393;
+}
+.tr image{
+  width:50rpx;
+  height:50rpx;
+  border-radius: 50%;
+}
+.tr-one .td{
+  padding-top:40rpx;
+}
+/* 本场最佳 */
+.mvp-item{
+  display:flex;
+  justify-content: space-between;
+  padding-top:40rpx;
+}
+.mvp-item image{
+  width:50rpx;
+  height:50rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.mvp-left ,.mvp-mid,.mvp-right{
+  display:inline-block;
+}
+.mvp-mid{
+  color:#333;
+  font-size:32rpx;
+}
+.mvp-left,.mvp-right,.mvp-mid-score{
+  color:#939393;
+  font-size:27rpx;
+}
+.mvp-left{
+  margin-left:20rpx;
+}
+.mvp-right{
+  margin-right:20rpx;
+}
+.mvp-left image{
+  margin-right:20rpx;
+}
+.mvp-right image{
+  margin-left:20rpx;
+}
+.mvp-mid-score{
+  display:inline-block;
+  margin-left:40rpx;
+  margin-right:40rpx;
+}
+.mvp-left text,.mvp-right text{
+  display:inline-block;
+  width:130rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.mvp-mid text{
+  display:inline-block;
+  vertical-align: middle;
+}
+.last-item{
+  padding-bottom:40rpx;
+}
+/* 球队统计 */
+.team-vs{
+  display:flex;
+  justify-content: space-between;
+  padding-top:30rpx;
+}
+.team-vs image{
+  width:55rpx;
+  height:55rpx;
+  border-radius: 50%;
+}
+.vs-left-img{
+  margin-left:30rpx;
+}
+.vs-right-img{
+  margin-right:30rpx;
+}
+.dui-bi{
+  display:flex;
+  justify-content: space-between;
+  margin-top:30rpx;
+}
+.dui-bi-data-l,.dui-bi-data-r{
+  font-size:33rpx;
+  color:#333;
+}
+.dui-bi-data-l{
+  margin-left:35rpx;
+  margin-top:25rpx;
+}
+.dui-bi-data-r{
+  margin-right:35rpx;
+  margin-top:25rpx;
+}
+.dui-bi-mid{
+  color:#939393;
+  font-size:27rpx;
+  text-align: center;
+  vertical-align: middle;
+}
+.last-dui-bi{
+  padding-bottom:20rpx;
+}
+.mid-line{
+  margin-top:-10rpx;
+}
+.mid-l,.mid-r{
+  display:inline-block;
+  width:250rpx;
+  background-color:#f2f2f2;
+}
+.mid-line-l{
+  float:right;
+  width:220rpx;
+  height:12rpx;
+  background-color:#6e68f6;
+}
+.mid-line-r{
+  display:inline-block;
+  float: left;
+  width:20rpx;
+  height:12rpx;
+  background-color:#bdbdbd;
+}
+.p-name{
+  padding-left:0rpx;
+  width:100rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.table-team{
+  width:1000rpx;
+  overflow-x: scroll;
+}
+.nav-l{
+  margin-left:20rpx;
+}
+.event-bottom-nav{
+  position:fixed;
+  bottom:0;
+  background-color:#fff;
+  width:100%;
+  margin-left:0rpx;
+}
+.data-bottom{
+  margin-bottom:50rpx;
+}
+/* 赛况及竞猜部分 */
+.tab{
+  width:100%;
+  height:100rpx;
+  line-height: 100rpx;
+  background-color:#fff;
+  font-size:33rpx;
+  text-align: center;
+  color:#333;
+}
+.tab .tab-one,.tab .tab-two{
+  display:inline-block;
+  width:100rpx;
+  height:95rpx;
+}
+.tab .tab-two{
+  margin-left:200rpx;
+}
+.tab-on{
+  color:#6e68f6;
+  border-bottom:6rpx solid #6e68f6;
+}
+.all-wrapper{
+  background-color:#fff;
+  padding-bottom:23rpx;
+}
+.com-top-words{
+  width:100%;
+  height:90rpx;
+  line-height: 90rpx;
+  background-color:#fff;
+  text-align: center;
+  font-size:34rpx;
+  color:#333;
+  margin-top:20rpx;
+}
+.com-wrapper{
+  width:92%;
+  background-color:#6e68f6;
+  border-radius: 12rpx;
+  margin: 0 auto;
+  box-shadow: 0rpx 0rpx 10rpx #dbdbdb;
+}
+.school-name-wrapper{
+  position:relative;
+  width:100%;
+  height:55rpx;
+  line-height: 55rpx;
+  background-color:#e347aa;
+  border-top-left-radius: 12rpx;
+  border-top-right-radius: 12rpx;
+}
+.school-name-wrapper .school-name{
+  width:50%;
+  float:left;
+  text-align: center;
+  font-size:31rpx;
+  color:#fff;
+}
+.school-name-wrapper .school-name-word{
+  display:inline-block;
+  width:270rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.school-name-wrapper .school-vs{
+  position:absolute;
+  display:inline-block;
+  color:#fff;
+  text-shadow: 0 0 10rpx red;
+  left:50%;
+  font-size:30rpx;
+  transform: translateX(-50%);
+  text-align: center;
+  /* border-top: 60rpx solid red;
+  border-right: 30rpx solid transparent;
+  border-left:30rpx solid transparent; */
+  background-color:#f9ce0f;
+  top:-54rpx;
+
+}
+.school-name-wrapper .school-vs-wrapper{
+  position:absolute;
+  left:50%;
+  width:55rpx;
+  height:0rpx;
+  transform: translateX(-50%);
+  border-top: 55rpx solid #f9ce0f;
+  border-right: 25rpx solid transparent;
+  border-left:25rpx solid transparent;
+}
+.event-wrapper{
+  background-color:#282360;
+  height:165rpx;
+  color:#fff;
+  font-size:27rpx;
+  border-bottom-left-radius: 12rpx;
+  border-bottom-right-radius: 12rpx;
+}
+.event-wrapper .com-left,.event-wrapper .com-mid,.event-wrapper .com-right{
+  float:left;
+}
+.event-wrapper .com-left,.event-wrapper .com-right{
+  width:49%;
+  text-align: center;
+}
+.event-wrapper .com-mid{
+  text-align: center;
+  width:2%;
+}
+.victory{
+  width:160rpx;
+  height:50rpx;
+  line-height: 50rpx;
+  margin:0 auto;
+  border-radius: 8rpx;
+  margin-top:30rpx;
+}
+.victory-left{
+  background-color:#6e68f6;
+}
+.victory-right{
+  background-color:#e347aa;
+}
+.detail-info{
+  margin-top:20rpx;
+}
+.detail-info view{
+  display:inline-block;
+  font-size:24rpx;
+}
+.detail-info view:nth-child(2){
+  margin-left:30rpx;
+}
+.zhi-on{
+  color:#f9ce0f;
+}
+/* 篮球宝贝来助攻 */
+.baby-cheer-wrapper{
+  background-color:#dad9fc;
+  width:92%;
+  margin:0 auto;
+  border-radius: 12rpx;
+  margin-top:30rpx;
+  box-shadow: 0rpx 0rpx 30rpx #dbdbdb;
+  padding-bottom:20rpx;
+}
+.top-words{
+  width:100%;
+  background-color:#5a4bf3;
+  border-top-left-radius: 12rpx;
+  border-top-right-radius: 12rpx;
+  font-size:30rpx;
+  color:#fff;
+  height:66rpx;
+  line-height:66rpx;
+}
+.top-words view{
+  margin-left:30rpx;
+}
+.bot-block-one image{
+  width:40rpx;
+  height:40rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left:30rpx;
+}
+.bot-block-one view{
+  display:inline-block;
+  font-size:26rpx;
+}
+.bot-block-one .baby-name{
+  color:#e347aa;
+  margin-left:15rpx;
+}
+.bot-block-one .support{
+  color:#333;
+  margin-left:20rpx;
+}
+.bot-block-one .school-name{
+  color:#6e68f6;
+  margin-left:20rpx;
+  margin-top:20rpx;
+}
+/* 竞猜弹层 */
+.tan-wrapper{
+  position:fixed;
+  width:100%;
+  background-color:rgba(0, 0, 0, 0.7);
+  bottom:0;
+  z-index: 100;
+}
+.tan-wrapper .tan-top{
+  padding-bottom:20rpx;
+}
+.tan-wrapper .tan-top-word{
+  color:#fff;
+  width:100%;
+  font-size:30rpx;
+  height:80rpx;
+  line-height: 80rpx;
+}
+.tan-wrapper .tan-top-word view,.tan-wrapper .tan-top-word text{
+  display:inline-block;
+}
+.tan-wrapper .tan-top-word view{
+  float:right;
+  font-size:26rpx;
+  color:#f9ce0f;
+  margin-right:20rpx;
+}
+.tan-wrapper .tan-top-word text{
+  padding-left:20rpx;
+}
+.red-packet-icon{
+  width:100rpx;
+  height:100rpx;
+  position:absolute;
+  right:0;
+  bottom:30rpx;
+}
+.coin-icon{
+  width:40rpx;
+  height:40rpx;
+  vertical-align: middle;
+}
+.num-wrapper{
+  width:100%;
+  display:inline-flex;
+  justify-content: space-around;
+  flex-direction: row;
+  color:#fff;
+  font-size:25rpx;
+  padding-top:20rpx;
+  padding-bottom:40rpx;
+}
+.num-wrapper view{
+  width:135rpx;
+  height:50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.3);
+  border:1px solid #fff;
+  border-radius: 25rpx;
+}
+.num-wrapper .text-on{
+  background-color:rgba(230, 197, 16, 1);
+  border:1px solid #fff;
+  text-shadow: 0 0 10rpx red;
+  border-radius: 25rpx;
+}
+.guding-word{
+  color:#fff;
+  font-size:25rpx;
+  padding-left:20rpx;
+}
+.tan-bottom{
+  position:relative;
+  width:100%;
+  height:100rpx;
+}
+.tan-bottom .tan-bottom-left,.tan-bottom .tan-bottom-right{
+  float:left;
+  font-size:31rpx;
+  text-align: center;
+}
+.tan-bottom .tan-bottom-left{
+  width:35%;
+  height:100rpx;
+  line-height: 100rpx;
+  color:#6e68f6;
+  background-color:#fff;
+}
+.tan-bottom .tan-bottom-right{
+  width:65%;
+  background-color:#e347aa;
+  height:100rpx;
+  line-height: 100rpx;
+  color:#fff;
+}
+.meng-ceng{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+.no-data{
+  color:#929292;
+  width:100%;
+  font-size:30rpx;
+  text-align: center;
+  margin-top:200rpx;
+}
+.event-wrapper .jing-cai-done{
+  margin-top:20rpx;
+  font-size:29rpx;
+}
+.event-wrapper .text-on{
+  color:#f9ce0f;
+}
+
+

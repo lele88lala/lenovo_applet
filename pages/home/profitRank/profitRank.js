@@ -1,4 +1,4 @@
-// pages/home/matchList/matchList.js
+// pages/home/profitRank/profitRank.js
 Page({
 
   /**
