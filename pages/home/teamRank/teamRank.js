@@ -1,15 +1,31 @@
-// pages/tabBar/home/home.js
+// pages/home/teamRank/teamRank.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    imgUrls: [
- 'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
-    ]
+    array: ['美国', '中国', '巴西', '日本'],
+    objectArray: [
+      {
+        id: 0,
+        name: '美国'
+      },
+      {
+        id: 1,
+        name: '中国'
+      },
+      {
+        id: 2,
+        name: '巴西'
+      },
+      {
+        id: 3,
+        name: '日本'
+      }
+    ],
+    multiIndex: [0, 0, 0]
+  
   },
 
   /**
@@ -66,37 +82,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  /**
-   * 跳转到全部比赛页
-   */
-  toMoreMatch:function(){
-    wx.switchTab({
-      url: '../match/match'
-    })
-  },
-  /**
-   * 跳到闯关页面
-   */
-  toLevel:function(){
-    wx.navigateTo({
-      url: '../../home/level/level',
-    })
-  },
-  /**
-   * 到比赛详情页
-   */
-  toEventDetail:function(){
-    wx.navigateTo({
-      url: '../../match/eventInfo/eventInfo',
-    })
-  },
-  /**
-   * 到球队人气排行
-   */
-  toTeamRank:function(){
-    wx.navigateTo({
-      url: '../../home/teamRank/teamRank',
-    })
   }
 })

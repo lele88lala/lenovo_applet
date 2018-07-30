@@ -1,0 +1,153 @@
+<!--pages/home/teamRank/teamRank.wxml-->
+<view class="wrapper">
+  <view class="top-select">
+    <view>总榜</view>
+    <picker  bindchange="bindPickerChange" value="{{index}}" range="{{array}}" wx:if="{{array.length>1}}" class="act-convert">
+      <view class="selector">西安交通大学
+        <image src="../../../images/btn_open_blue.png"></image>
+      </view>
+    </picker>
+
+  </view>
+  <view class="top-three">
+    <view class="left">
+      <view class="content">
+        <image class="hat" src="../../../images/icon_crown_second_big.png"></image>
+        <image class="head-pic" src="../../../images/btn_exorbitant_privileges.png"></image>
+        <view class="major">计算机科学</view>
+        <view class="school-name">西安交通大学</view>
+        <view class="fame">人气 77891</view>
+      </view>
+    </view>
+    <view class="mid">
+      <view class="content">
+        <image class="hat" src="../../../images/icon_crown_first_big.png"></image>
+        <image class="head-pic" src="../../../images/btn_exorbitant_privileges.png"></image>
+        <view class="major">计算机科学</view>
+        <view class="school-name">西安交通大学</view>
+        <view class="fame">人气 77891</view>
+      </view>
+    </view>
+    <view class="right">
+      <view class="content">
+        <image class="hat" src="../../../images/icon_crown_third_big.png"></image>
+        <image class="head-pic" src="../../../images/btn_exorbitant_privileges.png"></image>
+        <view class="major">计算机科学</view>
+        <view class="school-name">西安交通大学</view>
+        <view class="fame">人气 77891</view>
+      </view>
+    </view>
+  </view>
+  <view class="rank-list">
+    <view class='one-rank'>
+      <view>4</view>
+      <view>
+        <image src="../../../images/btn_exorbitant_privileges.png"></image>
+      </view>
+      <view class="school-info">
+        <view class="black">工商管理</view>
+        <view>西安交通大学</view>
+      </view>
+      <view>人气 58976</view>
+    </view>
+    <view class='one-rank'>
+      <view>4</view>
+      <view>
+        <image src="../../../images/btn_exorbitant_privileges.png"></image>
+      </view>
+      <view class="school-info">
+        <view class="black">工商管理</view>
+        <view>西安交通大学</view>
+      </view>
+      <view>人气 58976</view>
+    </view>
+    <view class='one-rank'>
+      <view>4</view>
+      <view>
+        <image src="../../../images/btn_exorbitant_privileges.png"></image>
+      </view>
+      <view class="school-info">
+        <view class="black">工商管理</view>
+        <view>西安交通大学</view>
+      </view>
+      <view>人气 58976</view>
+    </view>
+    <view class='one-rank'>
+      <view>4</view>
+      <view>
+        <image src="../../../images/btn_exorbitant_privileges.png"></image>
+      </view>
+      <view class="school-info">
+        <view class="black">工商管理</view>
+        <view>西安交通大学</view>
+      </view>
+      <view>人气 58976</view>
+    </view>
+    <view class='one-rank'>
+      <view>4</view>
+      <view>
+        <image src="../../../images/btn_exorbitant_privileges.png"></image>
+      </view>
+      <view class="school-info">
+        <view class="black">工商管理</view>
+        <view>西安交通大学</view>
+      </view>
+      <view>人气 58976</view>
+    </view>
+    <view class='one-rank'>
+      <view>4</view>
+      <view>
+        <image src="../../../images/btn_exorbitant_privileges.png"></image>
+      </view>
+      <view class="school-info">
+        <view class="black">工商管理</view>
+        <view>西安交通大学</view>
+      </view>
+      <view>人气 58976</view>
+    </view>
+    <view class='one-rank'>
+      <view>4</view>
+      <view>
+        <image src="../../../images/btn_exorbitant_privileges.png"></image>
+      </view>
+      <view class="school-info">
+        <view class="black">工商管理</view>
+        <view>西安交通大学</view>
+      </view>
+      <view>人气 58976</view>
+    </view>
+    <view class='one-rank'>
+      <view>4</view>
+      <view>
+        <image src="../../../images/btn_exorbitant_privileges.png"></image>
+      </view>
+      <view class="school-info">
+        <view class="black">工商管理</view>
+        <view>西安交通大学</view>
+      </view>
+      <view>人气 58976</view>
+    </view>
+    <view class='one-rank'>
+      <view>4</view>
+      <view>
+        <image src="../../../images/btn_exorbitant_privileges.png"></image>
+      </view>
+      <view class="school-info">
+        <view class="black">工商管理</view>
+        <view>西安交通大学</view>
+      </view>
+      <view>人气 58976</view>
+    </view>
+    <view class='one-rank'>
+      <view>4</view>
+      <view>
+        <image src="../../../images/btn_exorbitant_privileges.png"></image>
+      </view>
+      <view class="school-info">
+        <view class="black">工商管理</view>
+        <view class="lower-black">西安交通大学</view>
+      </view>
+      <view>人气 58976</view>
+    </view>
+  </view>
+</view>

@@ -14,7 +14,7 @@
     <image src="../../../images/home_btn_sign_up.png" />
     <text>参赛报名</text>
   </view>
-  <view class="nav-block">
+  <view class="nav-block" bindtap='toLevel'>
     <image src="../../../images/home_btn_guess.png" />
     <text>竞猜闯关</text>
   </view>
@@ -22,7 +22,7 @@
     <image src="../../../images/home_btn_reach.png" />
     <text>红包签到</text>
   </view>
-  <view class="nav-block">
+  <view class="nav-block" bindtap='toTeamRank'>
     <image src="../../../images/home_btn_rankings.png" />
     <text>人气排行</text>
   </view>
@@ -41,7 +41,7 @@
 </view>
 <scroll-view scroll-x="true" scroll-with-animation="false">
   <view class="match">
-    <view class="one-match">
+    <view class="one-match" bindtap='toEventDetail'>
       <view class="left">竞猜</view>
       <view class="right">
         <view>

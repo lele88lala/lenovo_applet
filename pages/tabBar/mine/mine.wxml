@@ -53,13 +53,13 @@
         <text>元</text>
       </view>
       <view class="img-wraper">
-        <image src="../../../images/home_btn_reach.png"></image>红包</view>
+        <image src="../../../images/icon_red_envelopes.png"></image>红包</view>
     </view>
     <view class="line"></view>
     <view>
       <view class="dis-num">689</view>
       <view class="img-wraper">
-        <image src="../../../images/home_btn_reach.png"></image>竞猜币</view>
+        <image src="../../../images/icon_gold_coin.png"></image>竞猜币</view>
     </view>
   </view>
 </view>

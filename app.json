@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/match/level/level",
     "pages/tabBar/home/home",
     "pages/match/eventInfo/eventInfo",
     "pages/tabBar/match/match",
@@ -9,7 +8,11 @@
     "pages/tabBar/mall/mall",
     "pages/tabBar/mine/mine",
     "components/redPacket/redPacket",
-    "pages/match/profitRank/profitRank"
+    "pages/match/profitRank/profitRank",
+    "pages/home/level/level",
+    "pages/home/enroll/enroll",
+    "pages/home/teamRank/teamRank"
+        
   ],
   "window": {
     "backgroundTextStyle": "light",
