@@ -303,7 +303,7 @@
   width:100%;
   height:55rpx;
   line-height: 55rpx;
-  background-color:#e347aa;
+  background:linear-gradient(to right,#6e68f6,#e347aa);
   border-top-left-radius: 12rpx;
   border-top-right-radius: 12rpx;
 }
@@ -375,10 +375,10 @@
   margin-top:30rpx;
 }
 .victory-left{
-  background-color:#6e68f6;
+  background:linear-gradient(to right,#e347aa,#6e68f6);
 }
 .victory-right{
-  background-color:#e347aa;
+  background:linear-gradient(to right,#6e68f6,#e347aa);
 }
 .detail-info{
   margin-top:20rpx;
@@ -471,15 +471,15 @@
   padding-left:20rpx;
 }
 .red-packet-icon{
-  width:100rpx;
-  height:100rpx;
+  width:132rpx;
+  height:180rpx;
   position:absolute;
-  right:0;
-  bottom:30rpx;
+  right:10rpx;
+  bottom:10rpx;
 }
 .coin-icon{
-  width:40rpx;
-  height:40rpx;
+  width:50rpx;
+  height:50rpx;
   vertical-align: middle;
 }
 .num-wrapper{
@@ -521,6 +521,7 @@
   float:left;
   font-size:31rpx;
   text-align: center;
+  letter-spacing: 4rpx;
 }
 .tan-bottom .tan-bottom-left{
   width:35%;
@@ -531,7 +532,7 @@
 }
 .tan-bottom .tan-bottom-right{
   width:65%;
-  background-color:#e347aa;
+  background:linear-gradient(to right,#6e68f6,#e347aa);
   height:100rpx;
   line-height: 100rpx;
   color:#fff;

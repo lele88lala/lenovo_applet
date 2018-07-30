@@ -1,14 +1,15 @@
 {
   "pages": [
-    "pages/home/profitRank/profitRank",
-    "pages/home/eventInfo/eventInfo",
+    "pages/match/level/level",
     "pages/tabBar/home/home",
+    "pages/match/eventInfo/eventInfo",
     "pages/tabBar/match/match",
     "pages/index/index",
     "pages/tabBar/baby/baby",
     "pages/tabBar/mall/mall",
     "pages/tabBar/mine/mine",
-    "components/redPacket/redPacket"
+    "components/redPacket/redPacket",
+    "pages/match/profitRank/profitRank"
   ],
   "window": {
     "backgroundTextStyle": "light",

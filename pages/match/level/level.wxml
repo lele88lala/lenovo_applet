@@ -1,0 +1,45 @@
+<!--pages/match/level/level.wxml-->
+<view class="wrapper">
+  <image class="bg-img" src="../../../images/img_bg_checkpoint.png"></image>
+  <view class="content">
+    <view class="top">
+      <image class="head-pic" src='../../../images/btn_checkpoint_pre.png'></image>
+      <image class="god-icon" src="../../../images/icon_gold_coin.png"></image>
+      <view class="jing-cai-coin">698 竞猜币</view>
+      <image class="icon-gift" src='../../../images/icon_gift.png'></image>
+      <view class="result-word">闯关奖励已送到</view>
+    </view>
+    <view class="two-line-word"><view>您已猜20场，
+      <text>猜中8场</text>，还差
+      <text>2</text>场彩玉评分现金大奖</view></view>
+    <view class="three-line-word">本周共30场比赛</view>
+    <view class="four-line-word">猜中10场分奖金</view>
+    <view class="five-line-word">{{statusWords}}</view>
+
+    <swiper indicator-dots="{{indicatorDots}}" bindchange="changePic" display-multiple-items="3" circular="true">
+      <block>
+        <swiper-item>
+          <image style="{{showPic==3?'transform:scale(1.5,1.5)':''}}" src="../../../images/btn_checkpoint.png" class="slide-image"  />
+        </swiper-item>
+        <swiper-item>
+          <image style="{{showPic==0?'transform:scale(1.5,1.5)':''}}" src="../../../images/btn_checkpoint_pre.png" class="slide-image"  />
+        </swiper-item>
+        <swiper-item>
+          <image style="{{showPic==1?'transform:scale(1.5,1.5)':''}}" src="../../../images/btn_checkpoint.png" class="slide-image" />
+        </swiper-item>
+        <swiper-item >
+          <image style="{{showPic==2?'transform:scale(1.5,1.5)':''}}"  src="../../../images/btn_checkpoint.png" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="jiang-jin words-off">奖金5000元</view>
+    <view class="ri-qi">（09月05日-09月11日）</view>
+    <view class="bottom-btn"><view class="bt btn-on">{{buttonWords}}</view></view>
+    <view class="ce-lan">
+      <image src='../../../images/btn_share_small.png'></image>
+      <image src='../../../images/btn_ranking_small.png'></image>
+      <image src='../../../images/btn_list.png'></image>
+      <image src='../../../images/btn_rule.png'></image>
+    </view>
+  </view>
+</view>

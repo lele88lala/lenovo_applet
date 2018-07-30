@@ -2,7 +2,7 @@
 <view class="wrapper">
   <!-- 顶部信息 begin -->
   <view class="top-info">
-    <image class="bg-img" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    <image class="bg-img" src="../../../images/img_bg_match.png"></image>
     <view class="match-name">城市传奇篮球争霸赛传奇篮球争霸赛</view>
     <view class="event-info">
       <view class="team">
@@ -414,7 +414,7 @@
           <view class="school-vs">vs</view>
         </view>
       </view>
-      <view class="event-wrapper" style="display:none">
+      <view class="event-wrapper">
         <view class="com-left">
           <view bindtap='guess' class="victory victory-left">胜</view>
           <view class="detail-info">
@@ -432,7 +432,7 @@
         </view>
       </view>
       <!-- 竞猜结束 -->
-      <view class="event-wrapper">
+      <view class="event-wrapper" style="display:none">
         <view class="com-left">
           <view bindtap='guess' class="jing-cai-done">负</view>
           <view class="detail-info">
@@ -506,9 +506,9 @@
       </view>
       <view class="tan-bottom">
         <view class="tan-bottom-left">
-          <image class="coin-icon" src="../../../images/tab_btn_match_pre.png"></image>500竞猜币</view>
+          <image class="coin-icon" src="../../../images/icon_gold_coin.png"></image>500竞猜币</view>
         <view class="tan-bottom-right">{{coinWords}}</view>
-        <image class="red-packet-icon" src="../../../images/tab_btn_mall.png"></image>
+        <image class="red-packet-icon" src="../../../images/icon_match_red_envelopes.png"></image>
       </view>
     </view>
   </view>

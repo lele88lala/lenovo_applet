@@ -92,3 +92,13 @@
   color:#f59d5f;
   font-weight: 900;
 }
+.head-pic-wrapper {
+  position:relative;
+}
+.head-pic-wrapper .hat{
+  position:absolute;
+  left:-20rpx;
+  top:-8rpx;
+  width:40rpx;
+  height:40rpx;
+}

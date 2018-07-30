@@ -13,7 +13,8 @@
     <view class="list-bottom">
       <view class="list-one">
         <view class="text-on-one">1</view>
-        <view>
+        <view class="head-pic-wrapper">
+          <image class="hat" src="../../../images/icon_crown_first.png"></image>
           <image src="../../../images/tab_btn_mall.png"></image>
         </view>
         <view>路书豪</view>
@@ -22,7 +23,8 @@
       </view>
       <view class="list-one">
         <view class="text-on-two">2</view>
-        <view>
+        <view class="head-pic-wrapper">
+          <image class="hat" src="../../../images/icon_crown_second.png"></image>
           <image src="../../../images/tab_btn_mall.png"></image>
         </view>
         <view>路书豪</view>
@@ -31,7 +33,8 @@
       </view>
       <view class="list-one">
         <view class="text-on-three">3</view>
-        <view>
+        <view class="head-pic-wrapper">
+          <image class="hat" src="../../../images/icon_crown_third.png"></image>
           <image src="../../../images/tab_btn_mall.png"></image>
         </view>
         <view>路书豪</view>

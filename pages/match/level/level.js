@@ -1,97 +1,73 @@
-// pages/home/matchList/matchList.js
+// pages/match/level/level.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array: ['美国', '中国', '巴西', '日本'],
-    objectArray: [
-      {
-        id: 0,
-        name: '美国'
-      },
-      {
-        id: 1,
-        name: '中国'
-      },
-      {
-        id: 2,
-        name: '巴西'
-      },
-      {
-        id: 3,
-        name: '日本'
-      }
-    ],
-    multiIndex: [0, 0, 0]
+    showPic:'0',
+    buttonWords:'未开始',
+    statusWords:'闯关还未开始'
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+  
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+  
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+  
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-
+  
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+  
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-
+  
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-
+  
   },
 
   /**
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
+  
   },
-  bindPickerChange: function (e) {
-    console.log(1)
-    console.log('picker发送选择改变，携带值为', e.detail.value)
-    this.setData({
-      multiIndex: e.detail.value
-    })
-  },
-  eventInfo:function(){
-    wx.navigateTo({
-      url: '../../match/eventInfo/eventInfo',
-    })
+  changePic:function(event){
+    console.log(event)
+    this.setData({showPic:event.detail.current})
+    console.log(this.data.showPic)
   }
 })

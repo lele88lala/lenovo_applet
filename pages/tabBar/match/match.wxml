@@ -1,7 +1,7 @@
 <!--pages/home/matchList/matchList.wxml-->
 
 <picker class="top-select" bindchange="bindPickerChange" value="{{index}}" range="{{array}}" wx:if="{{array.length>1}}" class="act-convert">
-<view class="top-select" >选择学校</view>
+<view class="top-select" >选择学校<image src="../../../images/btn_take_up.png"></image></view>
 </picker>
 <view class="date-mark">今天</view>
 <view class="match-wrapper">
