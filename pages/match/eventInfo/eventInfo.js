@@ -98,7 +98,7 @@ Page({
     }
   },
   guess:function(){
-    this.setData({showJingCai:true})
+    this.setData({showJingCai: true})
   },
   cancelMeng:function(){
     this.setData({showJingCai:false})

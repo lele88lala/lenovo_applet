@@ -444,9 +444,18 @@
 .tan-wrapper{
   position:fixed;
   width:100%;
-  background-color:rgba(0, 0, 0, 0.7);
-  bottom:0;
+  background-color:rgba(0, 0, 0, 0.8);
+  bottom:-378rpx;
   z-index: 100;
+  /* height:0rpx; */
+    transition:bottom .3s;
+
+}
+.tan-wrapper-up{
+  /* height:378rpx !important; */
+  bottom:0;
+      /* transition:bottom 1s; */
+
 }
 .tan-wrapper .tan-top{
   padding-bottom:20rpx;

@@ -1,14 +1,15 @@
 {
   "pages": [
+        "pages/match/eventInfo/eventInfo",
+        
     "pages/tabBar/home/home",
-    "pages/match/eventInfo/eventInfo",
     "pages/tabBar/match/match",
     "pages/index/index",
     "pages/tabBar/baby/baby",
     "pages/tabBar/mall/mall",
     "pages/tabBar/mine/mine",
     "components/redPacket/redPacket",
-    "pages/match/profitRank/profitRank",
+    "pages/match/profitCheerRank/profitRank",
     "pages/home/level/level",
     "pages/home/enroll/enroll",
     "pages/home/teamRank/teamRank"

@@ -98,5 +98,13 @@ Page({
     wx.navigateTo({
       url: '../../home/teamRank/teamRank',
     })
+  },
+  /**
+   * 到助威积分页面
+   */
+  toCheerRank:function(){
+    wx.navigateTo({
+      url: '../../match/profitCheerRank/profitRank',
+    })
   }
 })

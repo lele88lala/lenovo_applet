@@ -489,7 +489,7 @@
     </view>
     <!-- 竞猜弹框 -->
     <view class="meng-ceng" bindtap='cancelMeng' wx:if="{{showJingCai}}"></view>
-    <view class="tan-wrapper" wx:if="{{showJingCai}}">
+    <view class="tan-wrapper {{showJingCai===true?'tan-wrapper-up':''}}" >
       <view class="tan-top">
         <view class="tan-top-word">
           <text>投注：西安交通大学 胜</text>
