@@ -1,0 +1,40 @@
+<!--pages/rights/myRights/myRights.wxml-->
+<view class="wrapper">
+  <view class="img-wrapper">
+    <image src='../../../images/img_bg_privilege.png'></image>
+  </view>
+  <view class="yellow-title">超级特权</view>
+  <view class="two-title">1.价比京东低一百</view>
+  <view class="three-title">同配产品比京东自营产品价格最少低一百</view>
+  <view class="two-title">2.厂家直购保四年</view>
+  <view class="three-title">购机获得联想厂家出库证明，同时延保到4年</view>
+  <view class="two-title">3.验货完毕再付款</view>
+  <view class="three-title">厂家专业售前工程师，送货上门，并做基础服务</view>
+  <view class="two-title">4.获得超帅唯一特权实体卡</view>
+
+  <!-- 电话手机学校信息 -->
+  <view class="apply-info" wx:if="">
+    <view class="yellow-title bt-right">申请特权</view>
+    <view class="user-info">
+      <text class="lab">姓名</text>
+      <input type='text' placeholder='请输入姓名'></input>
+    </view>
+    <view class="user-info">
+      <text >手机</text>
+      <input type='text' placeholder='请输入手机号'></input>
+    </view>
+    <view class="user-info">
+      <text class="lab">学校</text>
+      <input type='text' placeholder='请输入学校'></input>
+    </view>
+  </view>
+  <!-- 电话手机学校信息 end -->
+  <!-- 申请后信息 -->
+  <view class="my-kan">
+    <view class="kan-one" bindtap='toMyCuts'>我的砍价</view>
+    <view class="kan-desc top">没什么加个是我砍不了的，</view>
+    <view class="kan-desc bot">如果有那就多找几个小伙伴来砍啊</view>
+  </view>
+  <!-- 生情后我的砍价end -->
+  <view class="apply-btn">{{buttonWord}}</view>
+</view>

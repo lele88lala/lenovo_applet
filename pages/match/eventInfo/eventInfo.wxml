@@ -23,9 +23,9 @@
   </view>
   <!-- 顶部信息 end -->
   <!-- 赛况及竞猜tab部分 -->
-  <view class="tab">
-    <view data-type='1' class="{{showBlock ===true?'tab-one tab-on':'tab-one'}}" bindtap='toBlock'>赛况</view>
-    <view data-type='2' class="{{showBlock === false?'tab-two tab-on':'tab-two'}}" bindtap='toBlock'>竞猜</view>
+  <view class="common-tab">
+    <view data-type='1' class="{{showBlock ===true?'common-tab-one common-tab-on':'common-tab-one'}}" bindtap='toBlock'>赛况</view>
+    <view data-type='2' class="{{showBlock === false?'common-tab-two common-tab-on':'common-tab-two'}}" bindtap='toBlock'>竞猜</view>
   </view>
   <!-- 赛况及竞猜tab部分end -->
 

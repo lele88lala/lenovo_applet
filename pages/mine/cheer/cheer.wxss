@@ -1,0 +1,101 @@
+/* pages/mine/cheer/cheer.wxss */
+.top-wrapper{
+  width:95%;
+  margin:0 auto;
+  border-radius: 12rpx;
+  padding:15rpx 15rpx;
+}
+.top-wrapper .my-cheer{
+  background:linear-gradient(to right,#6e68f6,#e347aa);
+  color:#fff;
+  border-top-left-radius: 12rpx;
+  border-top-right-radius: 12rpx;
+  font-size:32rpx;
+  padding-left:10rpx;
+  padding-top:15rpx;
+  padding-bottom:10rpx;
+}
+.top-wrapper .content{
+  background-color:#282360;
+  text-align: center;
+  border-bottom-left-radius: 12rpx;
+  border-bottom-right-radius: 12rpx;
+  margin-bottom:20rpx;
+}
+.top-wrapper .content .number{
+  color:#f9ce0f;
+  font-size:50rpx;
+  padding-top:50rpx;
+  padding-bottom:50rpx;
+  border-bottom:3rpx solid #302976;
+}
+.top-wrapper .content .bottom-words{
+  color:#fff;
+  font-size:25rpx;
+  padding-top:15rpx;
+  padding-bottom:15rpx;
+}
+.top-wrapper .content .bottom-words text{
+  display:inline-block;
+  color:#aa8a3e;
+  padding: 5rpx 10rpx;
+  border:1rpx solid #aa8a3e;
+  margin-left:20rpx;
+  border-radius: 20rpx;
+}
+.list-wrapper{
+  border-radius: 12rpx;
+  background-color:#fff;
+  width:95%;
+  margin:0 auto;
+}
+.list-wrapper .title{
+  color:#333;
+  font-size:33rpx;
+  width:100%;
+  padding-bottom:30rpx;
+  border-bottom:1rpx solid #dbdbdb;
+}
+.list-wrapper .title view{
+  margin-left:30rpx;
+  padding-top:30rpx;
+}
+.list-wrapper .list-one{
+  padding-top:20rpx;
+  padding-bottom:20rpx;
+  border-bottom:1rpx solid #dbdbdb;
+}
+.list-wrapper .list-one image{
+  width:68rpx;
+  height:68rpx;
+  vertical-align: middle;
+  margin-left:30rpx;
+}
+.list-wrapper .list-one .mid{
+  display:inline-block;
+  vertical-align: middle;
+  width:450rpx;
+  padding-left:20rpx;
+}
+.list-wrapper .list-one .mid .top{
+  color:#333;
+  font-size:30rpx;
+}
+.list-wrapper .list-one .mid .bottom{
+  color:#929292;
+  font-size:26rpx;
+}
+.list-wrapper .list-one .right{
+  display:inline-block;
+  vertical-align: middle;
+  color:#f9ce0f;
+  font-size:32rpx;
+}
+.bottom-words view{
+  display:inline-block;
+}
+.bottom-words .week-num{
+  color:#f9ce0f;
+  margin-left:15rpx;
+  margin-right:40rpx;
+}

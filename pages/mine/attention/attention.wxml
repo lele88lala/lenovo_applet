@@ -1,0 +1,35 @@
+<!--pages/mine/attention/attention.wxml-->
+<view>
+  <view class="person">
+    <image src="../../../images/btn_exorbitant_privileges.png"></image>
+    <view class="user-info">
+      <view class="user-name">李书豪</view>
+      <view class="user-type">球员 西北工业大学</view>
+    </view>
+    <view class="attention">+关注</view>
+  </view>
+  <view class="person">
+    <image src="../../../images/btn_exorbitant_privileges.png"></image>
+    <view class="user-info">
+      <view class="user-name">李书豪</view>
+      <view class="user-type">球员 西北工业大学哈哈哈服额挼若we挼而we挼we挼人we</view>
+    </view>
+    <view class="attention no-attention">取消关注</view>
+  </view>
+  <view class="person">
+    <image src="../../../images/btn_exorbitant_privileges.png"></image>
+    <view class="user-info">
+      <view class="user-name">李书豪</view>
+      <view class="user-type">球员 西北工业大学</view>
+    </view>
+    <view class="attention">+关注</view>
+  </view>
+  <view class="person">
+    <image src="../../../images/btn_exorbitant_privileges.png"></image>
+    <view class="user-info">
+      <view class="user-name">李书豪</view>
+      <view class="user-type">球员 西北工业大学</view>
+    </view>
+    <view class="attention">+关注</view>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#6e68f6",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "个人资料",
+  "backgroundColor": "#fff",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false,
+  "disableScroll": false
+}

@@ -1,0 +1,36 @@
+<!--pages/mine/profile/profile.wxml-->
+<!-- 宝贝资料页面 -->
+<view class="top-info">
+  <image class="me-head" src="../../../images/home_btn_guess.png"></image>
+  <view class="change-img">点击更换头像</view>
+</view>
+<view class="bottom-block">
+  <view class="block-one">
+    <text class="head-words">姓名</text>
+    <view class="more-match me-right">张曼玉
+    </view>
+  </view>
+  <view class="block-one">
+    <text class="head-words">身高</text>
+    <view class="more-match me-right">178
+
+    </view>
+  </view>
+  <view class="block-one">
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" class="act-convert">
+      <text class="head-words">星座</text>
+      <view class="more-match">{{xingZuoWords}}
+        <image src="../../../images/btn_more.png"></image>
+      </view>
+    </picker>
+  </view>
+</view>
+<view class="bottom-block">
+  <view class="block-one me-xuan">
+    <text class="head-words">宣言</text>
+  </view>
+  <view class="text-a">
+    <textarea value="逆风翻盘，向阳而生"></textarea>
+  </view>
+</view>
+<view class="bottom-btn">保存</view>

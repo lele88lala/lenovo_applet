@@ -185,4 +185,11 @@
   width:100%;
   height:80rpx;
 }
+.share-icon{
+  position:fixed;
+  width:99rpx;
+  height:99rpx;
+  bottom:50rpx;
+  right:50rpx;
+}
 

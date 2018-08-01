@@ -1,0 +1,77 @@
+/* pages/mine/redPacket/redPacket.wxss */
+.top-red-packet{
+  position:relative;
+  height:350rpx;
+}
+.top-red-packet image{
+  position:absolute;
+  width:710rpx;
+  height:300rpx;
+  left:50%;
+  transform:translateX(-50%);
+  margin-top:20rpx;
+}
+.top-red-packet .money{
+  position:absolute;
+  width:100%;
+  text-align: center;
+  color:#fff;
+  font-size:45rpx;
+  top:130rpx;
+}
+.top-red-packet .packet-num{
+  position:absolute;
+  width:100%;
+  text-align: center;
+  color:#f9ce0f;
+  font-size:27rpx;
+  top:270rpx;
+}
+.list-wrapper{
+  border-radius: 12rpx;
+  background-color:#fff;
+  width:95%;
+  margin:0 auto;
+}
+.list-wrapper .title{
+  color:#333;
+  font-size:33rpx;
+  width:100%;
+  padding-bottom:30rpx;
+  border-bottom:1rpx solid #dbdbdb;
+}
+.list-wrapper .title view{
+  margin-left:30rpx;
+  padding-top:30rpx;
+}
+.list-wrapper .list-one{
+  padding-top:20rpx;
+  padding-bottom:20rpx;
+  border-bottom:1rpx solid #dbdbdb;
+}
+.list-wrapper .list-one image{
+  width:68rpx;
+  height:68rpx;
+  vertical-align: middle;
+  margin-left:30rpx;
+}
+.list-wrapper .list-one .mid{
+  display:inline-block;
+  vertical-align: middle;
+  width:450rpx;
+  padding-left:20rpx;
+}
+.list-wrapper .list-one .mid .top{
+  color:#333;
+  font-size:30rpx;
+}
+.list-wrapper .list-one .mid .bottom{
+  color:#929292;
+  font-size:26rpx;
+}
+.list-wrapper .list-one .right{
+  display:inline-block;
+  vertical-align: middle;
+  color:#f9ce0f;
+  font-size:32rpx;
+}

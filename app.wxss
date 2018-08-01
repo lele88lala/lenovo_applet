@@ -105,3 +105,91 @@ page{
   margin-right:40rpx;
   color:#929292;
 }
+/* tab共享样式 */
+/* 赛况及竞猜部分 */
+.common-tab{
+  margin-top:100rpx;
+  display:inline-flex;
+  justify-content: space-around;
+  width:100%;
+  height:100rpx;
+  line-height: 100rpx;
+  background-color:#fff;
+  font-size:33rpx;
+  color:#333;
+}
+.common-tab .common-tab-one,.common-tab .common-tab-two{
+  display:inline-block;
+  height:95rpx;
+  width:100rpx;
+  text-align: center;
+}
+.common-tab-on{
+  color:#6e68f6;
+  border-bottom:6rpx solid #6e68f6;
+}
+/* 留言部分样式 */
+.common-one-leave-words image{
+  width:80rpx;
+  height:80rpx;
+  border-radius: 50%;
+  margin-top:20rpx;
+  vertical-align: top;
+  margin-left:20rpx;
+}
+.common-one-leave-words{
+  width:95%;
+  margin:0 auto;
+  border-radius: 12rpx;
+  background-color:#fff;
+  box-shadow: 0 0 10rpx #dbdbdb;
+  margin-top:15rpx;
+  
+}
+.common-one-leave-words .common-leave-info{
+  display:inline-block;
+}
+.common-one-leave-words .common-leave-info .user-name{
+  color:#333;
+  font-size:29rpx;
+  vertical-align: middle;
+  margin-top:20rpx;
+  margin-left:20rpx;
+}
+.common-one-leave-words .common-leave-info .time{
+  color:#929292;
+  font-size:24rpx;
+  margin-left:20rpx;
+}
+.common-one-leave-words .common-leave-bottom{
+  width:500rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color:#333;
+  font-size:27rpx;
+  margin-left:120rpx;
+  margin-top:20rpx;
+  padding-bottom:30rpx;
+}
+.common-leave-words-btn{
+  position:fixed;
+  width:95%;
+  background-color: #f9ce0f;
+  color:#786207;
+  font-size:29rpx;
+  text-align: center;
+  border-radius: 12rpx;
+  height:70rpx;
+  line-height: 70rpx;
+  bottom:20rpx;
+  left:50%;
+  transform: translateX(-50%);
+}
+.common-leave-words-btn image{
+  width:30rpx;
+  height:30rpx;
+  vertical-align: middle;
+  margin-right:15rpx;
+
+}

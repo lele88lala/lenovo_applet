@@ -1,0 +1,87 @@
+<!--pages/mine/jingCai/jingCai.wxml-->
+<view class='user-info'>
+  <image class="head-pic" src="../../../images/btn_exorbitant_privileges.png"></image>
+  <image class="coin-icon" src="../../../images/icon_gold_coin_small.png"></image>
+  <view class="jing-btn">698 竞猜币</view>
+</view>
+<view class="jing-wrapper">
+  <view class="jing-one">
+    <view class="top-words">9月5日10：00西安交通大学 VS 西北工业大学，那只球队将取得比赛胜利？</view>
+    <view class="btn-left">
+      <view class="list-w">
+        <view class="pre">我猜:</view>
+        <view class="post">西安交通大学 胜</view>
+      </view>
+      <view class="list-w">
+        <view class="pre">投注:</view>
+        <view class="post">100 竞猜币</view>
+      </view>
+      <view class="list-w">
+        <view class="pre">获得:</view>
+        <view class="post">100 竞猜币</view>
+      </view>
+      <view class="list-w">
+        <view class="pre">赔率:</view>
+        <view class="post">1.9</view>
+      </view>
+    </view>
+    <view class="btn-right">
+      <image src='../../../images/icon_guess_correctly.png'></image>
+      <view class="time">2018-09-06 19：30</view>
+    </view>
+  </view>
+  <view class="jing-one">
+    <view class="top-words">9月5日10：00西安交通大学 VS 西北工业大学，那只球队将取得比赛胜利？</view>
+    <view class="btn-left">
+      <view class="list-w">
+        <view class="pre">我猜:</view>
+        <view class="post">西安交通大学 胜</view>
+      </view>
+      <view class="list-w">
+        <view class="pre">投注:</view>
+        <view class="post">100 竞猜币</view>
+      </view>
+      <view class="list-w">
+        <view class="pre">获得:</view>
+        <view class="post">100 竞猜币</view>
+      </view>
+      <view class="list-w">
+        <view class="pre">赔率:</view>
+        <view class="post">1.9</view>
+      </view>
+    </view>
+    <view class="btn-right">
+      <image src='../../../images/icon_guess_error.png'></image>
+      <view class="time">2018-09-06 19：30</view>
+    </view>
+  </view>
+  <view class="jing-one">
+    <view class="top-words">9月5日10：00西安交通大学 VS 西北工业大学，那只球队将取得比赛胜利？</view>
+    <view class="btn-left">
+      <view class="list-w">
+        <view class="pre">我猜:</view>
+        <view class="post">西安交通大学 胜</view>
+      </view>
+      <view class="list-w">
+        <view class="pre">投注:</view>
+        <view class="post">100 竞猜币</view>
+      </view>
+      <view class="list-w">
+        <view class="pre">获得:</view>
+        <view class="post">100 竞猜币</view>
+      </view>
+      <view class="list-w">
+        <view class="pre">赔率:</view>
+        <view class="post">1.9</view>
+      </view>
+    </view>
+    <!-- <view class="btn-right">
+      <image src='../../../images/icon_guess_correctly.png'></image>
+      <view class="time">2018-09-06 19：30</view>
+    </view> -->
+    <view class="btn-right">
+      <view class="wei-kai-jiang">未开奖</view>
+      <view class="time">2018-09-06 19：30</view>
+    </view>
+  </view>
+</view>

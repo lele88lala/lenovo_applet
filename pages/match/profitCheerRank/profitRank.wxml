@@ -1,4 +1,4 @@
-<!--pages/home/profitRank/profitRank.wxml-->
+<!--pages/home/profitRank/profitRank.wxml   盈利助威排行榜共享页面-->
 <view class="wrapper">
   <view class="join-words">参与竞猜赢大奖</view>
   <view class="gui-ze">奖品规则</view>

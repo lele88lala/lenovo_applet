@@ -21,7 +21,7 @@
     <image class="common-head-pic me-head" src="../../../images/home_btn_guess.png"></image>
     <view class="common-info-detail">
       <view class="common-name">李源</view>
-      <view class="band-phone">绑定手机</view>
+      <view class="band-phone" bindtap='toBindPhone'>绑定手机</view>
       <!-- <view class="common-user-school">西北工业大学</view> -->
     </view>
     <view class="sign-icon">签到</view>
@@ -48,7 +48,7 @@
 <!-- 公共部分红包竞猜币 -->
 <view class="packet-wrapper">
   <view class="packet-quize">
-    <view>
+    <view bindtap='toRedPacket'>
       <view class="dis-num">￥25.5
         <text>元</text>
       </view>
@@ -56,14 +56,14 @@
         <image src="../../../images/icon_red_envelopes.png"></image>红包</view>
     </view>
     <view class="line"></view>
-    <view>
+    <view bindtap='toCheer'>
       <view class="dis-num">689</view>
       <view class="img-wraper">
         <image src="../../../images/icon_gold_coin.png"></image>竞猜币</view>
     </view>
   </view>
 </view>
-<view class="cheer">
+<view class="cheer" bindtap='toCheer'>
   <text>助威积分</text>
   <text>862</text>
   <view>距离获奖还差3名
@@ -92,9 +92,9 @@
 <!-- 篮球宝贝照片end -->
 <!-- 公共信息页面 -->
 <view class="bottom-block">
-  <view class="block-one">
-    <text class="head-words">我的精彩</text>
-    <view class="more-match">查看全部精彩
+  <view class="block-one" bindtap='toJingCai'>
+    <text class="head-words">我的竞猜</text>
+    <view class="more-match">查看全部竞猜
       <image src="../../../images/btn_more.png"></image>
     </view>
   </view>
@@ -104,18 +104,19 @@
       <image src="../../../images/btn_more.png"></image>
     </view>
   </view>
-  <view class="block-one">
+  <view class="block-one" bindtap='toProfile'>
     <text class="head-words">我的资料</text>
     <view class="more-match">修改
       <image src="../../../images/btn_more.png"></image>
     </view>
   </view>
-  <view class="block-one">
+  <view class="block-one" bindtap='toAttention'>
     <text class="head-words">我的关注</text>
     <view class="more-match">篮球宝贝、球员
       <image src="../../../images/btn_more.png"></image>
     </view>
   </view>
 </view>
+<cover-image class="share-icon" src='../../../images/btn_share_purple.png'></cover-image>
 <view class="bottom"></view>
 <!-- 公共信息页面end -->

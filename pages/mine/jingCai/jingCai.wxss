@@ -1,0 +1,81 @@
+/* pages/mine/jingCai/jingCai.wxss */
+.user-info{
+  width:100%;
+  padding-top:30rpx;
+  padding-bottom:10rpx;
+}
+.user-info .head-pic{
+  width:70rpx;
+  height:70rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left:20rpx;
+}
+.user-info .coin-icon{
+  width:50rpx;
+  height:50rpx;
+  vertical-align: middle;
+  margin-left:20rpx;
+}
+.user-info .jing-btn{
+  display:inline-block;
+  color: #826c20;
+  font-size:26rpx;
+  background-color:#f8ca12;
+  vertical-align: middle;
+  margin-left:20rpx;
+  padding:10rpx 10rpx;
+  text-shadow: 0 0 10rpx #dbdbdb;
+  box-shadow: 0 0 1rpx #f3af00;
+  border-radius: 10rpx;
+}
+
+.jing-one{
+  width:95%;
+  background-color:#fff;
+  margin:0 auto;
+  border-radius: 12rpx;
+  box-shadow: 0 0 20rpx #dbdbdb;
+  padding:20rpx 20rpx;
+  margin-top:20rpx;
+}
+.jing-one .top-words{
+  font-size:26rpx;
+}
+.jing-one image{
+  width:140rpx;
+  height:140rpx;
+}
+.jing-one .btn-left,.jing-one .btn-right{
+  display:inline-block;
+  font-size:25rpx;
+}
+.jing-one .btn-left{
+  width:490rpx;
+}
+.jing-one .btn-right{
+  text-align: center;
+}
+.jing-one .btn-left .list-w{
+  margin-top:10rpx;
+}
+.jing-one .btn-left .list-w view{
+  display:inline-block;
+}
+.jing-one .btn-left .list-w .pre{
+  color:#929292;
+}
+.jing-one .btn-left .list-w .post{
+  margin-left:20rpx;
+  font-size:26rpx;
+}
+.btn-right .time{
+  color:#929292;
+  font-size:22rpx;
+  margin-top:20rpx;
+}
+.btn-right .wei-kai-jiang{
+  font-size:30rpx;
+  color:#5241f2;
+  margin-bottom:70rpx;
+}

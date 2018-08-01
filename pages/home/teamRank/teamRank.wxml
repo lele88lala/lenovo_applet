@@ -10,7 +10,7 @@
 
   </view>
   <view class="top-three">
-    <view class="left">
+    <view class="left" bindtap='toTeam'>
       <view class="content">
         <image class="hat" src="../../../images/icon_crown_second_big.png"></image>
         <image class="head-pic" src="../../../images/btn_exorbitant_privileges.png"></image>
@@ -19,7 +19,7 @@
         <view class="fame">人气 77891</view>
       </view>
     </view>
-    <view class="mid">
+    <view class="mid" bindtap='toTeam'>
       <view class="content">
         <image class="hat" src="../../../images/icon_crown_first_big.png"></image>
         <image class="head-pic" src="../../../images/btn_exorbitant_privileges.png"></image>
@@ -28,7 +28,7 @@
         <view class="fame">人气 77891</view>
       </view>
     </view>
-    <view class="right">
+    <view class="right" bindtap='toTeam'>
       <view class="content">
         <image class="hat" src="../../../images/icon_crown_third_big.png"></image>
         <image class="head-pic" src="../../../images/btn_exorbitant_privileges.png"></image>
@@ -39,7 +39,7 @@
     </view>
   </view>
   <view class="rank-list">
-    <view class='one-rank'>
+    <view class='one-rank'  bindtap='toTeam'>
       <view>4</view>
       <view>
         <image src="../../../images/btn_exorbitant_privileges.png"></image>
@@ -50,7 +50,7 @@
       </view>
       <view>人气 58976</view>
     </view>
-    <view class='one-rank'>
+    <view class='one-rank'  bindtap='toTeam'>
       <view>4</view>
       <view>
         <image src="../../../images/btn_exorbitant_privileges.png"></image>
@@ -61,7 +61,7 @@
       </view>
       <view>人气 58976</view>
     </view>
-    <view class='one-rank'>
+    <view class='one-rank'  bindtap='toTeam'>
       <view>4</view>
       <view>
         <image src="../../../images/btn_exorbitant_privileges.png"></image>

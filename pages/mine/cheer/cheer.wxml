@@ -1,0 +1,53 @@
+<!--pages/mine/cheer/cheer.wxml-->
+<!-- 我的助威积分我的竞猜币页面共享 -->
+<view class="top-wrapper">
+  <view class="my-cheer">{{topTitle}}</view>
+  <view class="content">
+    <view class="number">862</view>
+    <view class="bottom-words" bindtap='toCheerPage'>距离获奖还差3名
+      <text>查看全部榜单</text>
+    </view>
+    <view class="bottom-words" bindtap='toCheerPage' wx:if="">
+      <view>当前周期盈利</view>
+      <view class="week-num">264</view>距离获奖还差3名
+      <text>查看全部榜单</text>
+    </view>
+  </view>
+</view>
+<view class="list-wrapper">
+  <view class="title">
+    <view>明细</view>
+  </view>
+  <view class="list-one">
+    <image src="../../../images/icon_detailed_crown.png"></image>
+    <view class="mid">
+      <view class="top">邀请好友为篮球宝贝聚人气</view>
+      <view class="bottom">09月06日 12：45</view>
+    </view>
+    <view class="right">+ 15.5元</view>
+  </view>
+  <view class="list-one">
+    <image src="../../../images/icon_detailed_crown.png"></image>
+    <view class="mid">
+      <view class="top">邀请好友为篮球宝贝聚人气</view>
+      <view class="bottom">09月06日 12：45</view>
+    </view>
+    <view class="right">+ 15.5元</view>
+  </view>
+  <view class="list-one">
+    <image src="../../../images/icon_detailed_crown.png"></image>
+    <view class="mid">
+      <view class="top">邀请好友为篮球宝贝聚人气</view>
+      <view class="bottom">09月06日 12：45</view>
+    </view>
+    <view class="right">+ 15.5元</view>
+  </view>
+  <view class="list-one">
+    <image src="../../../images/icon_detailed_crown.png"></image>
+    <view class="mid">
+      <view class="top">邀请好友为篮球宝贝聚人气</view>
+      <view class="bottom">09月06日 12：45</view>
+    </view>
+    <view class="right">+ 15.5元</view>
+  </view>
+</view>

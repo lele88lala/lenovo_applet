@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#6e68f6",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "球队",
+  "backgroundColor": "#fff",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false,
+  "disableScroll": true
+}

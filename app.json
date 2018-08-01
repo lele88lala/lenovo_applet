@@ -1,8 +1,9 @@
 {
   "pages": [
-        "pages/match/eventInfo/eventInfo",
-        
+    "pages/rights/myCuts/myCuts",
+    "pages/rights/myRights/myRights",
     "pages/tabBar/home/home",
+    "pages/match/eventInfo/eventInfo",
     "pages/tabBar/match/match",
     "pages/index/index",
     "pages/tabBar/baby/baby",
@@ -12,8 +13,15 @@
     "pages/match/profitCheerRank/profitRank",
     "pages/home/level/level",
     "pages/home/enroll/enroll",
-    "pages/home/teamRank/teamRank"
-        
+    "pages/home/teamRank/teamRank",
+    "pages/match/player/player",
+    "pages/match/team/team",
+    "pages/mine/phone/phone",
+    "pages/mine/attention/attention",
+    "pages/mine/jingCai/jingCai",
+    "pages/mine/redPacket/redPacket",
+    "pages/mine/cheer/cheer",
+    "pages/mine/profile/profile"
   ],
   "window": {
     "backgroundTextStyle": "light",

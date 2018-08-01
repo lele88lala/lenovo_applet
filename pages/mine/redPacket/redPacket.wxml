@@ -1,0 +1,49 @@
+<!--pages/mine/redPacket/redPacket.wxml-->
+<view class="top-red-packet">
+  <image src='../../../images/img_bg_red_envelopes.png'></image>
+  <cover-view class="money">￥25.5</cover-view>
+  <cover-view class="packet-num">13个红包</cover-view>
+</view>
+<view class="list-wrapper">
+  <view class="title"><view>明细</view></view>
+  <view class="list-one">
+    <image src="../../../images/icon_detailed_red_envelopes.png"></image>
+    <view class="mid">
+      <view class="top">参与投票获得随机红包</view>
+      <view class="bottom">09月06日 12：45</view>
+    </view>
+    <view class="right">+ 15.5元</view>
+  </view>
+  <view class="list-one">
+    <image src="../../../images/icon_detailed_crown.png"></image>
+    <view class="mid">
+      <view class="top">邀请好友为篮球宝贝聚人气</view>
+      <view class="bottom">09月06日 12：45</view>
+    </view>
+    <view class="right">+ 15.5元</view>
+  </view>
+  <view class="list-one">
+    <image src="../../../images/icon_detailed_reach.png"></image>
+    <view class="mid">
+      <view class="top">签到</view>
+      <view class="bottom">09月06日 12：45</view>
+    </view>
+    <view class="right">+ 15.5元</view>
+  </view>
+  <view class="list-one">
+    <image src="../../../images/icon_detailed_guess.png"></image>
+    <view class="mid">
+      <view class="top">竞猜闯关成功</view>
+      <view class="bottom">09月06日 12：45</view>
+    </view>
+    <view class="right">+ 15.5元</view>
+  </view>
+  <view class="list-one">
+    <image src="../../../images/icon_detailed_red_envelopes.png"></image>
+    <view class="mid">
+      <view class="top">签到任务礼包</view>
+      <view class="bottom">09月06日 12：45</view>
+    </view>
+    <view class="right">+ 15.5元</view>
+  </view>
+</view>

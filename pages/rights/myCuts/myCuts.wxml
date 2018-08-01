@@ -1,0 +1,21 @@
+<!--pages/rights/myCuts/myCuts.wxml-->
+<view class="wrapper">
+  <view class="top">
+    <view class="kan-ing">砍价中...</view>
+    <image  src="../../../images/img_coupon.png"></image>
+    <image  wx:if="" src="../../../images/img_coupon_gray.png"></image>
+    <cover-view class='qian'>
+      <text class="desc">￥</text>
+      <text class="qian-num">200</text>
+      <text class="desc">元</text>
+    </cover-view>
+    <cover-view class="no">NO.1234567890</cover-view>
+    <view class="dao-time">砍价倒计时:<text>22小时55分</text></view>
+  </view>
+  <view class="btn">{{buttonWords}}</view>
+  <view class="usage-words">
+    使用规则
+  </view>
+  <view class="detail">1.线下个联想柜台购机时，出示此页面可优惠200元</view>
+  <view class="detail">2.使用此券，需销售人员点击"确认使用"核销优惠券</view>
+</view>

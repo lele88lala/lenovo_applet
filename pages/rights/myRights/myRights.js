@@ -1,38 +1,18 @@
-// pages/home/teamRank/teamRank.js
+// pages/rights/myRights/myRights.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array: ['美国', '中国', '巴西', '日本'],
-    objectArray: [
-      {
-        id: 0,
-        name: '美国'
-      },
-      {
-        id: 1,
-        name: '中国'
-      },
-      {
-        id: 2,
-        name: '巴西'
-      },
-      {
-        id: 3,
-        name: '日本'
-      }
-    ],
-    multiIndex: [0, 0, 0]
-  
+    buttonWord:'立即申请'
   },
   /**
-   * 到球队页面
+   * 到我的砍价页面
    */
-  toTeam:function(){
+  toMyCuts:function(){
     wx.navigateTo({
-      url: '../../match/team/team',
+      url: '../../rights/myCuts/myCuts',
     })
   },
   /**

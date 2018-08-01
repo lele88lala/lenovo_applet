@@ -7,7 +7,62 @@ Page({
   data: {
   
   },
-
+  /**
+   * 到手机绑定页面
+   */
+  toBindPhone:function(){
+    wx.navigateTo({
+      url: '../../mine/phone/phone',
+    })
+  },
+  /**
+   * 到关注列表
+   */
+  toAttention:function(){
+    wx.navigateTo({
+      url: '../../mine/attention/attention',
+    })
+  },
+  /**
+   * 到精彩页
+   */
+  toJingCai:function(){
+    wx.navigateTo({
+      url: '../../mine/jingCai/jingCai',
+    })
+  },
+  /**
+   * 到助威列表
+   */
+  toCheerRank:function(){
+    wx.navigateTo({
+      url: '../../match/profitCheerRank/profitRank',
+    })
+  },
+  /**
+   * 到红包页面
+   */
+  toRedPacket:function(){
+    wx.navigateTo({
+      url: '../../mine/redPacket/redPacket',
+    })
+  },
+  /**
+   * 到助威页面
+   */
+  toCheer:function(){
+    wx.navigateTo({
+      url: '../../mine/cheer/cheer',
+    })
+  },
+  /**
+   * 到资料修改页面
+   */
+  toProfile:function(){
+    wx.navigateTo({
+      url: '../../mine/profile/profile',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

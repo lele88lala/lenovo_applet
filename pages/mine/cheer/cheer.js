@@ -1,38 +1,18 @@
-// pages/home/teamRank/teamRank.js
+// pages/mine/cheer/cheer.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array: ['美国', '中国', '巴西', '日本'],
-    objectArray: [
-      {
-        id: 0,
-        name: '美国'
-      },
-      {
-        id: 1,
-        name: '中国'
-      },
-      {
-        id: 2,
-        name: '巴西'
-      },
-      {
-        id: 3,
-        name: '日本'
-      }
-    ],
-    multiIndex: [0, 0, 0]
-  
+    topTitle:'我的助威积分'
   },
   /**
-   * 到球队页面
+   * 到助威积分排名页面
    */
-  toTeam:function(){
+  toCheerPage: function () {
     wx.navigateTo({
-      url: '../../match/team/team',
+      url: '../../match/profitCheerRank/profitRank',
     })
   },
   /**

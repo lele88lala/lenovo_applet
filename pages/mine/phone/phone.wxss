@@ -1,0 +1,50 @@
+/* pages/mine/phone/phone.wxss */
+.phone-num{
+  width:95%;
+  margin:0 auto;
+  background-color:#fff;
+  box-shadow: 0 0 20rpx #dbdbdb;
+  border-radius: 12rpx;
+  height:100rpx;
+  line-height: 100rpx;
+  margin-top:30rpx;
+}
+.phone-num input{
+  width:90%;
+  padding-top:10rpx;
+  height:80rpx;
+  margin-left:30rpx;
+  font-size:32rpx;
+}
+.school, .yan-code{
+  margin-top:20rpx;
+}
+.yan-code input{
+  width:70%;
+}
+.bang-btn{
+  width:95%;
+  background:linear-gradient(to right,#6e68f6,#e347aa);
+  margin:0 auto;
+  height:70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  color:#fff;
+  border-radius: 12rpx;
+  margin-top:40rpx;
+  font-size:30rpx;
+}
+.yan-code{
+  position:relative;
+}
+.yan-code .time-wrapper{
+  position:absolute;
+  color:#6e68f6;
+  font-size:26rpx;
+  width:130rpx;
+  height:45rpx;
+  line-height: 45rpx;
+  text-align: center;
+  top:30rpx;
+  right:30rpx;
+}

@@ -1,0 +1,136 @@
+<!--pages/match/player/player.wxml-->
+<view class="common-top-back">
+  <!-- 球员头部信息 -->
+  <view class="common-user-info">
+    <image class="common-head-pic me-head" src="../../../images/home_btn_guess.png"></image>
+    <view class="common-info-detail player-detail">
+      <view class="common-name">李源</view>
+      <view class="common-user-school">西北工业大学</view>
+      <view class="common-user-fame" bindtap='toFameRank'>人气
+        <text>864</text>
+        <text>排名3</text>
+        <text>查看全部榜单 ></text>
+      </view>
+    </view>
+    <view class="guan-zhu">+关注</view>
+  </view>
+  <!-- 球员头部信息end -->
+</view>
+<!-- 数据及留言 -->
+<view class="common-tab my-tab">
+  <view data-type='1' class="{{showBlock ===true?'common-tab-one common-tab-on':'common-tab-one'}}" bindtap='toBlock'>数据</view>
+  <view data-type='2' class="{{showBlock === false?'common-tab-two common-tab-on':'common-tab-two'}}" bindtap='toBlock'>留言</view>
+</view>
+<!-- 数据及留言end -->
+<!-- 数据部分 -->
+<view class="data-wrapper" style="{{showBlock===false?'display:none':'block'}}">
+  <view class="circle-box">
+    <canvas class="circle" style="width:100%; height:200px;" canvas-id="canvasCircle0">
+    </canvas>
+    <canvas class="circle" style="width:100%; height:200px;" canvas-id="canvasCircle1">
+    </canvas>
+    <canvas class="circle" style="width:100%; height:200px;" canvas-id="canvasCircle2">
+    </canvas>
+    <canvas class="circle" style="width:100%; height:200px;" canvas-id="canvasCircle3">
+    </canvas>
+    <canvas class="circle" style="width:100%; height:200px;" canvas-id="canvasCircle4">
+    </canvas>
+    <!-- <view class="draw_btn" bindtap="drawCircle">开始动态绘制</view> -->
+  </view>
+  <view class="score-list">
+    <view class="item item-one">
+      <view class="item-l">
+        <text class="key">总场次</text>
+        <text class="value">24</text>
+      </view>
+      <view class="item-r">
+        <text class="key">总得分</text>
+        <text class="value">508</text>
+      </view>
+    </view>
+    <view class="item item-o">
+      <view class="item-l">
+        <text class="key">总篮板</text>
+        <text class="value">57</text>
+      </view>
+      <view class="item-r">
+        <text class="key">总助攻</text>
+        <text class="value">30</text>
+      </view>
+    </view>
+    <view class="item item-o">
+      <view class="item-l">
+        <text class="key">总抢断</text>
+        <text class="value">105</text>
+      </view>
+      <view class="item-r">
+        <text class="key">总盖帽</text>
+        <text class="value">30</text>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 数据部分end -->
+<!-- 留言模块 -->
+<view class="common-leave-words-wrapper" style="{{showBlock===true?'display:none':'block'}}">
+  <scroll-view scroll-y="true">
+    <view class="common-one-leave-words">
+      <view class="common-leave-top">
+        <image src="../../../images/btn_add_popularity.png"></image>
+        <view class="common-leave-info">
+          <view class="user-name">张同学</view>
+          <view class="time">09月06日 12：45</view>
+        </view>
+      </view>
+      <view class="common-leave-bottom">加油，最帅学长！</view>
+    </view>
+    <view class="common-one-leave-words">
+      <view class="common-leave-top">
+        <image src="../../../images/btn_add_popularity.png"></image>
+        <view class="common-leave-info">
+          <view class="user-name">张同学</view>
+          <view class="time">09月06日 12：45</view>
+        </view>
+      </view>
+      <view class="common-leave-bottom">加油，最帅学长！</view>
+    </view>
+    <view class="common-one-leave-words">
+      <view class="common-leave-top">
+        <image src="../../../images/btn_add_popularity.png"></image>
+        <view class="common-leave-info">
+          <view class="user-name">张同学</view>
+          <view class="time">09月06日 12：45</view>
+        </view>
+      </view>
+      <view class="common-leave-bottom">加油，最帅学长！</view>
+    </view>
+    <view class="common-one-leave-words">
+      <view class="common-leave-top">
+        <image src="../../../images/btn_add_popularity.png"></image>
+        <view class="common-leave-info">
+          <view class="user-name">张同学</view>
+          <view class="time">09月06日 12：45</view>
+        </view>
+      </view>
+      <view class="common-leave-bottom">加油，最帅学长！</view>
+    </view>
+  </scroll-view>
+</view>
+<!-- 留言模块end -->
+<!-- 加人气及分享图片 -->
+<view class="add-share-icon">
+  <cover-image bindtap='addZan' src="../../../images/btn_add_popularity.png"></cover-image>
+  <cover-image src="../../../images/btn_share_purple.png"></cover-image>
+</view>
+<view class="add-zan {{showZan === true?'add-zan-dong':''}}">+1</view>
+<!-- 加人气及分享图片end -->
+<!-- 留言部分 -->
+<view class="common-leave-words-btn" bindtap='leaveWord'>
+  <image src="../../../images/icon_leaving_message.png"></image>写留言</view>
+<view class="input-leave-words" style="{{showLeve===true?'display:block':'display:none'}}">
+  <view class="inp-w">
+    <input type='text' focus="{{focus}}"></input>
+  </view>
+  <view class="leave-done">发布</view>
+</view>
+<!-- 留言部分end -->

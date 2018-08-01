@@ -1,0 +1,100 @@
+/* pages/rights/myRights/myRights.wxss */
+.wrapper{
+  background-color:#292162;
+  width:100%;
+  height:100vh;
+}
+.wrapper .img-wrapper{
+  width:100%;
+  text-align: center;
+  height:360rpx;
+}
+.wrapper .img-wrapper image{
+  width:750rpx;
+  height:374rpx;
+}
+.yellow-title{
+  width:92%;
+  color:#f9d10c;
+  font-size:30rpx;
+  margin:0 auto;
+}
+.two-title{
+  width:92%;
+  margin:0 auto;
+  margin-top:10rpx;
+  font-size:27rpx;
+  color:#fff;
+}
+.three-title{
+  width:89%;
+  margin:0 auto;
+  color:#dbdbdb;
+  font-size:26rpx;
+  margin-top:10rpx;
+  letter-spacing: 3rpx;
+}
+.bt-right{
+  margin-top:30rpx;
+}
+.apply-info{
+  width:95%;
+  background-color:#fff;
+  margin:0 auto;
+  border-radius: 12rpx;
+  box-shadow: 0 0 5rpx #dbdbdb;
+  margin-top:20rpx;
+}
+.apply-info .user-info{
+  width:100%;
+  color:#333;
+  font-size:30rpx;
+  border-bottom:1rpx solid #dbdbdb;
+  padding-top:22rpx;
+  padding-bottom:22rpx;
+  border-radius: 12rpx;
+}
+.user-info text{
+  display:inline-block;
+  vertical-align: middle;
+  margin-left:25rpx;
+}
+.user-info input{
+  width:80%;
+  display:inline-block;
+  vertical-align: middle;
+  margin-left:20rpx;
+}
+.apply-btn{
+  width:95%;
+  background-color:#f9d10c;
+  margin:0 auto;
+  color:#333;
+  text-align: center;
+  height:70rpx;
+  line-height: 70rpx;
+  font-size:29rpx;
+  margin-top:20rpx;
+  border-radius: 12rpx;
+}
+.my-kan .kan-one{
+  color:#ffd50a;
+  width:130rpx;
+  margin:0 auto;
+  font-size:30rpx;
+  margin-top:220rpx;
+  border-bottom:1rpx solid #ffd50a;
+  text-align: center;
+}
+.my-kan .kan-desc {
+  width:100%;
+  text-align: center;
+  color:#929292;
+  font-size:27rpx;
+} 
+.my-kan .top{
+  margin-top:20rpx;
+}
+.my-kan .bot{
+  margin-bottom:40rpx;
+}

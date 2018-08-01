@@ -1,0 +1,287 @@
+/* pages/match/player/player.wxss */
+.me-head{
+  margin-left:40rpx;
+  vertical-align: middle;
+  margin-top:-20rpx;
+}
+.player-detail{
+  margin-left:20rpx;
+  margin-top:50rpx;
+}
+.guan-zhu{
+  position:absolute;
+  width:90rpx;
+  color:#fff;
+  font-size:27rpx;
+  text-align: center;
+  background:linear-gradient(to right,#6e68f6,#e347aa);
+  border-radius: 5rpx;
+  top:30rpx;
+  right:30rpx;
+  box-shadow: 0 0 1rpx #f8cc00;
+  padding:10rpx 20rpx;
+}
+.join-btn{
+  position:absolute;
+  width:130rpx;
+  background-color:#f8cc00;
+  font-size:25rpx;
+  text-align: center;
+  color:#333;
+  border-radius: 5rpx;
+  padding:5rpx 0 ;
+  bottom:40rpx;
+  left:50rpx;
+}
+/* 个人数据 */
+.my-tab{
+  margin-top:110rpx;
+  box-shadow: 0 0 10rpx #dbdbdb;
+}
+.data-wrapper{
+  box-shadow: 0 0 20rpx #ececec;
+  width:95%;
+  height:520rpx;
+  margin:auto;
+  background-color:#fff;
+  border-radius: 12rpx;
+  margin-top:25rpx;
+}
+.person-data{
+  width:92%;
+  height:120rpx;
+  line-height: 120rpx;
+  margin:0 auto;
+  color:#222;
+  font-size:32rpx;
+}
+.circle-box {
+  text-align: center;
+  background-color: #fff;
+}
+.circle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width:100%;
+}
+
+.draw_btn {
+  position: absolute;
+  top: 33vw;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border: 1px #000 solid;
+  border-radius: 5vw;
+}
+.item{
+  width:100%;
+  margin:0 auto;
+  text-align: center;
+}
+.item-one{
+  padding-top:270rpx;
+}
+.item-o{
+  padding-top:30rpx;
+}
+.item .item-l,.item .item-r{
+  display:inline-block;
+  width:45%; 
+}
+.item-l text ,.item-r text{
+  display:inline-block;
+  width:80rpx;
+  text-align: center;
+}
+.item-l{
+  padding-left:30rpx;
+  float:left;
+}
+.key{
+  font-size:22rpx;
+  color:#222;
+  padding-right:70rpx;
+}
+.value{
+  font-size:40rpx;
+  color:#6e68f6;
+}
+/* 加人气分享 */
+.add-share-icon{
+  position:fixed;
+  display:inline-flex;
+  flex-direction: column;
+  height:280rpx;
+  justify-content: space-around;
+  bottom:190rpx;
+  right:20rpx;
+}
+.add-share-icon cover-image{
+  width:99rpx;
+  height:99rpx;
+}
+.add-zan{
+  position:absolute;
+  color:#f8cc00;
+  font-size:30rpx;
+  right:55rpx;
+  bottom:370rpx;
+  opacity:1;
+  display:none;
+  /* transition: all 1s ease-in ; */
+  
+}
+/* .add-zan-dong{
+  position:absolute;
+  color:#f8cc00;
+  font-size:24rpx;
+  right:50rpx;
+  opacity: 0;
+  bottom:450rpx;
+} */
+.add-zan-dong{
+  display:block;
+  animation:mymove 2s;
+}
+@keyframes mymove
+{
+from {bottom:240px;opacity:1}
+to {bottom:420px;opacity:0}
+}
+scroll-view{
+  height:600rpx;
+}
+.my-class{
+  margin-top:20rpx;
+}
+/* 比赛模块 */
+.match-wrapper{
+  width:95%;
+  margin:0 auto;
+  border-radius: 12rpx;
+  background-color:#fff;
+  box-shadow: 0rpx 0rpx 60rpx #dbdbdb;
+}
+.match-wrapper .one-match-block{
+  padding-bottom:25rpx;
+  border-bottom:1px solid #ececec;
+  margin-top:20rpx;
+}
+.match-wrapper .one-match-block .time{
+  color:#929292;
+  font-size:24rpx;
+  width:100%;
+  padding-top:20rpx;
+}
+.match-wrapper .one-match-block .time view{
+  width:200rpx;
+  margin-left:50rpx;
+}
+
+.match-wrapper .one-match-block .left{
+  display:inline-block;
+  width:50%;
+  color:#5e5e5e;
+  font-size:32rpx;
+  text-align: center;
+  vertical-align: middle;
+}
+.match-wrapper .one-match-block .left view{
+  margin-top:20rpx;
+}
+.match-wrapper .one-match-block .mid view{
+  margin-top:20rpx;
+}
+.match-wrapper .one-match-block .mid{
+  display:inline-block;
+  width:20%;
+  color:#929292;
+  font-size:33rpx;
+  text-align: right;
+  vertical-align: middle;
+}
+.match-wrapper .one-match-block .right{
+  display:inline-block;
+  width:29%;
+  color:#929292;
+  font-size:25rpx;
+  text-align: center;
+  vertical-align: middle;
+}
+.on-red{
+  color:red !important;
+}
+.data-scroll{
+  height:700rpx;
+}
+/* 球员页面 */
+.player-wrapper{
+  width:95%;
+  background-color:#fff;
+  border-radius: 12rpx;
+  margin:0 auto;
+  box-shadow: 0 0 20rpx #dbdbdb;
+}
+.player-wrapper .one-player{
+  width:100%;
+  height:98rpx;
+  line-height: 98rpx;
+  border-bottom:1rpx solid #dbdbdb;
+}
+.player-wrapper .one-player .player-head{
+  width:40rpx;
+  height:40rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left:30rpx;
+}
+.player-wrapper .one-player .more-icon{
+  width:30rpx;
+  height:30rpx;
+  float:right;
+  margin-right:25rpx;
+  margin-top:30rpx;
+}
+.player-wrapper .one-player .player-name{
+  display:inline-block;
+  font-size:30rpx;
+  color:#333;
+  margin-left:20rpx;
+}
+.player-scroll{
+  height:700rpx;
+  margin-top:20rpx;
+}
+/* 留言样式 */
+.input-leave-words{
+  position:absolute;
+  bottom:130rpx;
+  width:100%;
+  background-color:#f0f0f4;
+  height:100rpx;
+  line-height: 100rpx;
+}
+.input-leave-words view{
+  display:inline-block;
+}
+.input-leave-words input{
+  width:600rpx;
+  background-color:#fff;
+  height:70rpx;
+  border-radius: 30rpx;
+  margin-top:15rpx;
+  outline: none;
+  display:inline-block;
+}
+.input-leave-words .inp-w{
+  margin-left:20rpx;
+}
+.leave-done{
+  color:#6e68f6;
+  font-size:29rpx;
+  margin-left:30rpx;
+  vertical-align: middle;
+  padding-right:30rpx;
+}

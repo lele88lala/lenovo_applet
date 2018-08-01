@@ -1,0 +1,99 @@
+/* pages/rights/myCuts/myCuts.wxss */
+.wrapper{
+  width:100%;
+  height:100vh;
+  background-color:#292162;
+}
+.top{
+  position:relative;
+  height:480rpx;
+}
+.top image{
+  position:absolute;
+  width:618rpx;
+  height:323rpx;
+  left:50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  top:100rpx;
+}
+.top .qian{
+  position:absolute;
+  width:350rpx;
+  margin:0 auto;
+  color:#fff;
+  text-align: center;
+  z-index:2;
+  left:50%;
+  transform: translateX(-50%);
+  top:140rpx;
+  border-bottom:2rpx solid #fff;
+}
+.kan-ing{
+  position:absolute;
+  color:#ffd50a;
+  font-size:30rpx;
+  width:100%;
+  text-align: center;
+  top:50rpx;
+}
+.dao-time{
+  position:absolute;
+  color:#fff;
+  width:100%;
+  text-align: center;
+  top:400rpx;
+  font-size:25rpx;
+}
+.dao-time text{
+  display:inline-block;
+  margin-left:15rpx;
+  font-size:30rpx;
+  color:#fff;
+}
+.qian .qian-num{
+  font-size:120rpx;
+  font-weight: 900;
+}
+.qian .desc{
+  font-size:50rpx;
+}
+.no{
+  position:absolute;
+  z-index: 2;
+  color:#fff;
+  width:100%;
+  text-align: center;
+  margin-top:300rpx;
+}
+.btn{
+  width:380rpx;
+  height:70rpx;
+  line-height: 70rpx;
+  background-color:#ffd50a;
+  color:#333;
+  text-align: center;
+  margin:0 auto;
+  font-size:30rpx;
+  border-radius: 12rpx;
+  
+}
+.usage-words{
+  width:90%;
+  margin:0 auto;
+  color:#fff;
+  font-size:30rpx;
+  margin-top:45rpx;
+  padding-bottom:20rpx;
+}
+.detail{
+  width:89%;
+  margin:0 auto;
+  color:#929292;
+  font-size:25rpx;
+  letter-spacing: 2rpx;
+}
+/* 已经使用样式 */
+.btn-no{
+  background-color:#9a9a9a;
+}

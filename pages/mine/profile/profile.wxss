@@ -1,0 +1,85 @@
+/* pages/mine/profile/profile.wxss */
+.top-info{
+  width:100%;
+  background-color:#6e68f6;
+  text-align: center;
+}
+.top-info .me-head{
+  width:120rpx;
+  height:120rpx;
+  border-radius: 50%;
+  border:2rpx solid #e347aa;
+  margin:0 auto;
+  margin-top:37rpx;
+}
+.top-info .change-img{
+  color:#fff;
+  font-size:25rpx;
+  width:100%;
+  margin-top:10rpx;
+  padding-bottom:30rpx;
+}
+/* 底部公共信息 */
+.bottom-block{
+  width:95%;
+  background-color:#fff;
+  border-radius: 12rpx;
+  margin:0 auto;
+  padding-top:5rpx;
+  margin-top:20rpx;
+  font-size:30rpx;
+  color:#5e5e5e;
+}
+.bottom-block view{
+  display:inline-block;
+}
+.bottom-block image{
+  width:30rpx;
+  height:30rpx;
+  vertical-align: middle;
+}
+.bottom-block .block-one{
+  height:100rpx;
+  line-height: 100rpx;
+  width:100%;
+  border-bottom: 1rpx solid #ececec;
+}
+.block-one .head-words{
+  display:inline-block;
+  margin-left:30rpx;
+}
+.bottom-block  .more-match{
+  float:right;
+  margin-right:20rpx;
+  color:#929292;
+  font-size:27rpx;
+}
+.me-right{
+  margin-right:50rpx !important;
+}
+.me-xuan{
+  border-bottom:1rpx solid #fff !important;
+}
+.text-a{
+  padding-left:30rpx;
+  padding-right:30rpx;
+  font-size:26rpx;
+  width:92%;
+  margin:0 auto;
+}
+textarea{
+  height:70rpx !important;
+  width:100%;
+}
+.bottom-btn{
+  width:95%;
+  height:70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  color:#fff;
+  background: linear-gradient(to right,#6e68f6,#e347aa);
+  border-radius: 12rpx;
+  font-size:30rpx;
+  margin:0 auto;
+  margin-top:40rpx;
+}
