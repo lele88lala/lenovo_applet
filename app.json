@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/rights/bargain/bargain",
     "pages/tabBar/home/home",
     "pages/match/eventInfo/eventInfo",
     "pages/tabBar/match/match",
@@ -22,7 +21,9 @@
     "pages/mine/cheer/cheer",
     "pages/mine/profile/profile",
     "pages/rights/myCuts/myCuts",
-    "pages/rights/myRights/myRights"
+    "pages/rights/myRights/myRights",
+    "pages/rights/bargain/bargain",
+    "pages/rights/writeOff/writeOff"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,20 @@
+<!--pages/rights/writeOff/writeOff.wxml-->
+<view class="apply-info">
+  <view class="user-info">
+    <text class="lab">产品</text>
+    <input type='text' placeholder='请输入产品'></input>
+  </view>
+  <view class="user-info">
+    <text class="lab">S/N码</text>
+    <input type='text' placeholder='请输入S/N码'></input>
+  </view>
+  <view class="user-info">
+    <text class="lab">店面</text>
+    <input type='text' placeholder='请输入店面'></input>
+  </view>
+  <view class="user-info">
+    <text class="lab">销售</text>
+    <input type='text' placeholder='请输入销售人员'></input>
+  </view>
+</view>
+<view class="use-btm">确认使用</view>
