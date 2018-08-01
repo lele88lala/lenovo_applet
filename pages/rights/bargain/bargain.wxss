@@ -1,0 +1,108 @@
+/* pages/rights/bargain/bargain.wxss */
+.wrapper{
+  width:100%;
+  height:100vh;
+  background-color:#292162;
+}
+.wrapper .top-img{
+  width:750rpx;
+  height:374rpx;
+  margin-top:15rpx;
+}
+.jin-du{
+  width:92%;
+  margin:0 auto;
+  height:30rpx;
+  border-radius: 15rpx;
+  background-color:#1a105f;
+  box-shadow: 0 0 10rpx #333 inset;
+}
+.jin-du .jin-du-li{
+  width:60%;
+  background-color:#fbe44a;
+  height:28rpx;
+  border-radius: 14rpx;
+  box-shadow: 0rpx -5rpx 10rpx #333 inset;
+  transition: width 1s;
+}
+.kan-value{
+  color:#ffd50a;
+  width:100%;
+  text-align: center;
+  font-size:30rpx;
+}
+.desc{
+  color:#fff;
+  font-size:26rpx;
+  width:92%;
+  margin:0 auto;
+  margin-top:20rpx;
+}
+.desc  view{
+  display:inline-block;
+  color:#ffd50a;
+  font-size:30rpx;
+  margin-left:250rpx;
+}
+.btn{
+  width:400rpx;
+  background-color:#ffd50a;
+  color:#333;
+  font-size:30rpx;
+  margin:0 auto;
+  text-align: center;
+  border-radius: 12rpx;
+  height:60rpx;
+  line-height: 60rpx;
+  margin-top:70rpx;
+}
+.kan-wrapper{
+  width:95%;
+  margin:0 auto;
+  border-radius: 12rpx;
+  margin-top:70rpx;
+  background-color:#fff;
+}
+.kan-wrapper .top-title{
+  width:100%;
+  color:#fff;
+  font-size:30rpx;
+  height:60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  background:linear-gradient(to right,#6e68f6,#e347aa);
+  border-radius: 12rpx;
+}
+.one{
+  margin-top:15rpx;
+}
+.one image{
+  width:40rpx;
+  height:40rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+  display:inline-block;
+  margin-left:40rpx;
+}
+.one .name{
+  display:inline-block;
+  font-size:27rpx;
+  color:#e347aa;
+  margin-left:20rpx;
+  width:200rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.one .price{
+  display:inline-block;
+  color:#929292;
+  font-size:27rpx;
+}
+.price text{
+  color:#6e68f6;
+}
+scroll-view{
+  height:350rpx;
+}

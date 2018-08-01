@@ -98,7 +98,7 @@
       <image src="../../../images/btn_more.png"></image>
     </view>
   </view>
-  <view class="block-one">
+  <view class="block-one" bindtap='toMyRights'>
     <text class="head-words">我的超级特权</text>
     <view class="more-match">开通我的特权
       <image src="../../../images/btn_more.png"></image>

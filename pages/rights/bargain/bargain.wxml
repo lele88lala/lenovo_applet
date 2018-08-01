@@ -1,0 +1,44 @@
+<!--pages/rights/bargain/bargain.wxml-->
+<view class="wrapper">
+  <image class="top-img" src="../../../images/img_bg_bargain.png"></image>
+  <view class="kan-value">120</view>
+  <view class="jin-du">
+    <view class="jin-du-li" style="{{kanDone===true?'width:100%':''}}"></view>
+  </view>
+  <view class="desc">砍价倒计时: 22小时55分
+    <view>最高200元</view>
+  </view>
+  <view class="btn" bindtap='kanDone'>{{buttonWords}}</view>
+  <!-- 砍价榜 -->
+  <view class="kan-wrapper">
+    <view class="top-title">砍价功德榜</view>
+    <scroll-view scroll-y="yes">
+    <view class="one">
+      <image src="../../../images/btn_exorbitant_privileges.png"></image>
+      <view class="name">张同学</view>
+      <view class="price">砍了<text class="num">53</text>元</view>
+    </view>
+    <view class="one">
+      <image src="../../../images/btn_exorbitant_privileges.png"></image>
+      <view class="name">张同学</view>
+      <view class="price">砍了<text class="num">53</text>元</view>
+    </view>
+    <view class="one">
+      <image src="../../../images/btn_exorbitant_privileges.png"></image>
+      <view class="name">张同学</view>
+      <view class="price">砍了<text class="num">53</text>元</view>
+    </view>
+    <view class="one">
+      <image src="../../../images/btn_exorbitant_privileges.png"></image>
+      <view class="name">张同学</view>
+      <view class="price">砍了<text class="num">53</text>元</view>
+    </view>
+    <view class="one">
+      <image src="../../../images/btn_exorbitant_privileges.png"></image>
+      <view class="name">张同学</view>
+      <view class="price">砍了<text class="num">53</text>元</view>
+    </view>
+    </scroll-view>
+  </view>
+  <!-- 砍价榜 end -->
+</view>

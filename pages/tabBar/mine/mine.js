@@ -64,6 +64,14 @@ Page({
     })
   },
   /**
+   * 到超级特权页面
+   */
+  toMyRights: function() {
+    wx.navigateTo({
+      url: '../../rights/myRights/myRights',
+    })
+  },
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {

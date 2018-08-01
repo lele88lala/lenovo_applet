@@ -4,12 +4,12 @@
     <view class="kan-ing">砍价中...</view>
     <image  src="../../../images/img_coupon.png"></image>
     <image  wx:if="" src="../../../images/img_coupon_gray.png"></image>
-    <cover-view class='qian'>
+    <view class='qian'>
       <text class="desc">￥</text>
       <text class="qian-num">200</text>
       <text class="desc">元</text>
-    </cover-view>
-    <cover-view class="no">NO.1234567890</cover-view>
+    </view>
+    <view class="no">NO.1234567890</view>
     <view class="dao-time">砍价倒计时:<text>22小时55分</text></view>
   </view>
   <view class="btn">{{buttonWords}}</view>

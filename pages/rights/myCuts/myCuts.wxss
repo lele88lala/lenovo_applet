@@ -26,7 +26,7 @@
   z-index:2;
   left:50%;
   transform: translateX(-50%);
-  top:140rpx;
+  top:130rpx;
   border-bottom:2rpx solid #fff;
 }
 .kan-ing{

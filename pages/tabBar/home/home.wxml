@@ -99,5 +99,5 @@
 </view>
 <!-- 篮球宝贝 -->
 <!-- 超级特权 -->
-<cover-image class="super-rights" src="../../../images/btn_exorbitant_privileges.png"></cover-image>
+<cover-image bindtap='toMyRights' class="super-rights" src="../../../images/btn_exorbitant_privileges.png"></cover-image>
 <!-- 超级特权 -->

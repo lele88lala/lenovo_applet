@@ -1,7 +1,6 @@
 {
   "pages": [
-    "pages/rights/myCuts/myCuts",
-    "pages/rights/myRights/myRights",
+    "pages/rights/bargain/bargain",
     "pages/tabBar/home/home",
     "pages/match/eventInfo/eventInfo",
     "pages/tabBar/match/match",
@@ -21,7 +20,9 @@
     "pages/mine/jingCai/jingCai",
     "pages/mine/redPacket/redPacket",
     "pages/mine/cheer/cheer",
-    "pages/mine/profile/profile"
+    "pages/mine/profile/profile",
+    "pages/rights/myCuts/myCuts",
+    "pages/rights/myRights/myRights"
   ],
   "window": {
     "backgroundTextStyle": "light",
