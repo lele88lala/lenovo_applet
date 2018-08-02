@@ -113,5 +113,13 @@ Page({
     wx.navigateTo({
       url: '../../match/profitCheerRank/profitRank',
     })
+  },
+  /**
+   * 到签到页面
+   */
+  toSign: function () {
+    wx.navigateTo({
+      url: '../../common/sign/sign',
+    })
   }
 })

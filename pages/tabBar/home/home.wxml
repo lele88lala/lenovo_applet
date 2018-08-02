@@ -18,7 +18,7 @@
     <image src="../../../images/home_btn_guess.png" />
     <text>竞猜闯关</text>
   </view>
-  <view class="nav-block">
+  <view class="nav-block" bindtap='toSign'>
     <image src="../../../images/home_btn_reach.png" />
     <text>红包签到</text>
   </view>

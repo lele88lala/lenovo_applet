@@ -1,0 +1,80 @@
+<!--pages/common/sign/sign.wxml-->
+<view class="wrapper">
+  <image class="bg" src="../../../images/img_bg_sign_in.png">
+  </image>
+  <view class="bottom">
+    <view class="top-packet">
+      <view class="first-line">
+        <view class="packet-wrapper">
+          <view class="one">+80</view>
+          <image class="packet" src='../../../images/1_pre.png'></image>
+          <view class="two">第1天</view>
+        </view>
+        <view class="packet-wrapper">
+          <view class="one">+80</view>
+          <image class="packet" src='../../../images/1_pre.png'></image>
+          <view class="two">第1天</view>
+        </view>
+        <view class="packet-wrapper">
+          <view class="one">+80</view>
+          <image class="packet" src='../../../images/1_pre.png'></image>
+          <view class="two">第1天</view>
+        </view>
+        <view class="packet-wrapper">
+          <view class="one">+80</view>
+          <image class="packet" src='../../../images/1_pre.png'></image>
+          <view class="two">第1天</view>
+        </view>
+      </view>
+      <view class="second-line">
+        <view class="packet-wrapper">
+          <view class="one">+80</view>
+          <image class="packet" src='../../../images/1_pre.png'></image>
+          <view class="two">第1天</view>
+        </view>
+        <view class="packet-wrapper">
+          <view class="one">+80</view>
+          <image class="packet" src='../../../images/1_pre.png'></image>
+          <view class="two">第1天</view>
+        </view>
+        <view class="packet-wrapper">
+          <view class="one">+80</view>
+          <image class="packet" src='../../../images/1_pre.png'></image>
+          <view class="two">第1天</view>
+        </view>
+      </view>
+    </view>
+    <view class="sign sign-done">{{signWords}}</view>
+    <view class="ren-title">红包任务</view>
+    <view class="ren">
+      <view class="left">为选手增加人气</view>
+      <view class="right">未完成</view>
+    </view>
+    <view class="ren">
+      <view class="left">竞猜投注一场</view>
+      <view class="right pre-done">领取</view>
+    </view>
+    <view class="ren">
+      <view class="left">每日分享</view>
+      <view class="right done">已领取</view>
+    </view>
+    <view class="ren">
+      <view class="left">开通超级特权</view>
+      <view class="right done">已领取</view>
+    </view>
+    <view class="ren">
+      <view class="left">绑定手机号</view>
+      <view class="right done">已领取</view>
+    </view>
+    <view class="ren">
+      <view class="left">预约体验</view>
+      <view class="right done">已领取</view>
+    </view>
+    <view class="ren-title">签到规则</view>
+    <view class="gui-ze">1.每日签到可获得随机红包及竞猜币奖励</view>
+    <view class="gui-ze">2.连续签到可获得超级红包</view>
+    <view class="gui-ze">3.红包金额直接存入微信红包</view>
+    <view class="gui-ze">4.竞猜币可用于竞猜，购买礼物</view>
+    <view class="bottom-btn">分享给好友一起拆红包吧</view>
+  </view>
+</view>

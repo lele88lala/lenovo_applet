@@ -23,7 +23,8 @@
     "pages/rights/myCuts/myCuts",
     "pages/rights/myRights/myRights",
     "pages/rights/bargain/bargain",
-    "pages/rights/writeOff/writeOff"
+    "pages/rights/writeOff/writeOff",
+    "pages/common/sign/sign"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -72,7 +73,7 @@
   },
   "subPackages": [
     {
-      "root": "pages/common",
+      "root": "",
       "pages": []
     }
   ],
