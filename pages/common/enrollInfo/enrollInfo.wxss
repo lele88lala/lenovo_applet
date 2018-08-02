@@ -1,0 +1,82 @@
+/* pages/common/enrollInfo/enrollInfo.wxss */
+.top,.mid{
+  width:95%;
+  border-radius: 12rpx;
+  background: #fff;
+  box-shadow: 0 0 20rpx #dbdbdb;
+  margin:0 auto;
+  margin-top:20rpx;
+}
+.title{
+  color:#333;
+  font-size:33rpx;
+  height:90rpx;
+  line-height: 90rpx;
+  border-bottom:1rpx solid #dbdbdb;
+  padding-left:20rpx;
+}
+.name-w {
+  border-bottom:1rpx solid #dbdbdb;
+}
+.name-w view{
+  display:inline-block;
+  height:100rpx;
+  line-height: 100rpx;
+  color:#333;
+  font-size:31rpx;
+}
+.name-l{
+  padding-left:20rpx;
+}
+.team-name{
+  float:right;
+  margin-right:25rpx;
+}
+.logo-w{
+  padding-top:20rpx;
+  padding-bottom:20rpx;
+  height:150rpx;
+}
+.logo-l{
+  display:inline-block;
+  vertical-align: top;
+  color:#333;
+  font-size:31rpx;
+  padding-left:20rpx;
+}
+.logo-w image{
+  width:150rpx;
+  height:150rpx;
+  float:right;
+  margin-right:30rpx;
+}
+.xing{
+  color:#f7ba3b;
+}
+.user-name{
+  font-size:28rpx !important;
+}
+.name-w input{
+  font-size:28rpx;
+  display:inline-block;
+  margin-left:20rpx;
+  vertical-align: middle;
+  text-align: right;
+  width:570rpx;
+}
+.q{
+  display:inline-block;
+  padding-left:30rpx;
+}
+.btn{
+  width:95%;
+  border-radius: 12rpx;
+  margin:0 auto;
+  color:#fff;
+  font-size:29rpx;
+  background:linear-gradient(to right,#6e68f6,#e347aa);
+  text-align: center;
+  height:65rpx;
+  line-height: 65rpx;
+  margin-top:15rpx;
+}

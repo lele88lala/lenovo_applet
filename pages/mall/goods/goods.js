@@ -1,10 +1,15 @@
-// pages/tabBar/mall/mall.js
+// pages/mall/goods/goods.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    imgUrls: [
+      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+    ],
     showBlock: '1'
   },
   toBlock: function (event) {
@@ -13,19 +18,22 @@ Page({
       this.setData({ showBlock: 1 })
     } else if (types == 2) {
       this.setData({ showBlock: 2 })
-    } else if (types == 3) {
-      this.setData({ showBlock: 3 })
-    } else if (types == 4) {
-      this.setData({ showBlock: 4 })
-    }
-    console.log(types)
+    } 
   },
   /**
-   * 到商品信息
+   * 到体验页面
    */
-  toGoods: function () {
+  toExperience: function () {
     wx.navigateTo({
-      url: '../../mall/goods/goods',
+      url: '../../mall/experience/experience',
+    })
+  },
+  /**
+   * 到下单页面
+   */
+  toBuy: function () {
+    wx.navigateTo({
+      url: '../../mall/buy/buy',
     })
   },
   /**

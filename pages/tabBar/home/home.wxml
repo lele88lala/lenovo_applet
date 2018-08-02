@@ -10,7 +10,7 @@
 <!-- 轮播图 -->
 <!-- 导航 -->
 <view class="nav">
-  <view class="nav-block">
+  <view class="nav-block" bindtap='toEnroll'>
     <image src="../../../images/home_btn_sign_up.png" />
     <text>参赛报名</text>
   </view>

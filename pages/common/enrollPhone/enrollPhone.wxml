@@ -1,0 +1,5 @@
+<!--pages/common/enrollPhone/enrollPhone.wxml-->
+<view class="phone">
+  <input type="text" placeholder='请输入手机'></input>
+</view>
+<view class="btn" bindtap='toEnrollInfo'>下一步</view>

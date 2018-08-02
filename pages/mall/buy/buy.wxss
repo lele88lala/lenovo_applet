@@ -1,0 +1,78 @@
+/* pages/mall/buy/buy.wxss */
+.mid{
+  width:95%;
+  border-radius: 12rpx;
+  background: #fff;
+  box-shadow: 0 0 20rpx #dbdbdb;
+  margin:0 auto;
+  margin-top:20rpx;
+}
+.name-w {
+  border-bottom:1rpx solid #dbdbdb;
+}
+.name-w view{
+  display:inline-block;
+  height:100rpx;
+  line-height: 100rpx;
+  color:#333;
+  font-size:31rpx;
+}
+.name-l{
+  padding-left:20rpx;
+}
+.team-name{
+  float:right;
+  margin-right:25rpx;
+}
+.user-name{
+  font-size:28rpx !important;
+}
+.name-w input{
+  font-size:28rpx;
+  display:inline-block;
+  margin-left:20rpx;
+  vertical-align: middle;
+  text-align: right;
+  width:570rpx;
+}
+.btn{
+  width:95%;
+  border-radius: 12rpx;
+  margin:0 auto;
+  color:#fff;
+  font-size:29rpx;
+  background:linear-gradient(to right,#6e68f6,#e347aa);
+  text-align: center;
+  height:65rpx;
+  line-height: 65rpx;
+  margin-top:40rpx;
+}
+.title{
+  color:#333;
+  font-size:33rpx;
+  height:90rpx;
+  line-height: 90rpx;
+  border-bottom:1rpx solid #dbdbdb;
+  padding-left:20rpx;
+}
+.goods-desc{
+  width:95%;
+  margin:0 auto;
+  color:#333;
+  font-size:32rpx;
+  padding-top:30rpx;
+}
+.price{
+  width:95%;
+  text-align: right;
+  color:#ef5350;
+  font-size:45rpx;
+  padding-bottom:30rpx;
+}
+.bottom-desc{
+  width:90%;
+  margin:0 auto;
+  color:#333;
+  font-size:26rpx;
+  margin-top:30rpx;
+}

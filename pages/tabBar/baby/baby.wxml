@@ -1,2 +1,72 @@
 <!--pages/tabBar/baby/baby.wxml-->
-<text>pages/tabBar/baby/baby.wxml</text>
+<view class="top-img">
+  <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+  <view class="jiang-btn">奖品规则</view>
+  <view class="tab">
+    <view class="total-bang">总榜</view>
+    <picker class="school-bang tab-on">校榜
+      <image src="../../../images/btn_open_blue.png"></image>
+    </picker>
+  </view>
+</view>
+<view class="baby-wrapper">
+  <view class="baby">
+    <image class="head-pic" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    <view class="baby-name">琉璃书</view>
+    <view class="baby-school">西安交通大学</view>
+    <view class="fame">人气 5333</view>
+    <view class="gift-btn">送礼物</view>
+    <image class="top-icon" src="../../../images/crown_first_big.png"></image>
+  </view>
+  <view class="baby">
+    <image class="head-pic" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    <view class="baby-name">琉璃书</view>
+    <view class="baby-school">西安交通大学</view>
+    <view class="fame">人气 5333</view>
+    <view class="gift-btn">送礼物</view>
+    <image class="top-icon" src="../../../images/crown_second_big.png"></image>
+  </view>
+  <view class="baby">
+    <image class="head-pic" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    <view class="baby-name">琉璃书</view>
+    <view class="baby-school">西安交通大学</view>
+    <view class="fame">人气 5333</view>
+    <view class="gift-btn">送礼物</view>
+    <image class="top-icon" src="../../../images/crown_third_big.png"></image>
+  </view>
+  <view class="baby">
+    <image class="head-pic" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    <view class="baby-name">琉璃书</view>
+    <view class="baby-school">西安交通大学</view>
+    <view class="fame">人气 5333</view>
+    <view class="gift-btn">送礼物</view>
+  </view>
+  <view class="baby">
+    <image class="head-pic" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    <view class="baby-name">琉璃书</view>
+    <view class="baby-school">西安交通大学</view>
+    <view class="fame">人气 5333</view>
+    <view class="gift-btn">送礼物</view>
+  </view>
+  <view class="baby">
+    <image class="head-pic" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    <view class="baby-name">琉璃书</view>
+    <view class="baby-school">西安交通大学</view>
+    <view class="fame">人气 5333</view>
+    <view class="gift-btn">送礼物</view>
+  </view>
+  <view class="baby">
+    <image class="head-pic" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    <view class="baby-name">琉璃书</view>
+    <view class="baby-school">西安交通大学</view>
+    <view class="fame">人气 5333</view>
+    <view class="gift-btn">送礼物</view>
+  </view>
+  <view class="baby">
+    <image class="head-pic" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    <view class="baby-name">琉璃书</view>
+    <view class="baby-school">西安交通大学</view>
+    <view class="fame">人气 5333</view>
+    <view class="gift-btn">送礼物</view>
+  </view>
+</view>

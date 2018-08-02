@@ -103,7 +103,7 @@
   border-radius: 15rpx;
   padding:5rpx 10rpx;
   float:right;
-  margin-top:8rpx;
+  margin-top:4rpx;
   margin-right:25rpx;
 }
 .pre-done{

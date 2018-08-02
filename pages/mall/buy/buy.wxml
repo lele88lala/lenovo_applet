@@ -1,0 +1,37 @@
+<!--pages/mall/buy/buy.wxml-->
+<view class="mid">
+  <view class="title">你的信息</view>
+  <view class="name-w">
+    <view class="name-l">
+      <text>姓名</text>
+    </view>
+    <input type="text" placeholder='请输入姓名'></input>
+  </view>
+  <view class="name-w">
+    <view class="name-l">
+      <text>手机</text>
+    </view>
+    <input type="text" placeholder='请输入手机号'></input>
+  </view>
+  <view class="name-w">
+    <view class="name-l">
+      <text>学校</text>
+    </view>
+    <input type="text" placeholder='请输入手学校'></input>
+  </view>
+  <view class="name-w">
+    <view class="name-l">
+      <text>地址</text>
+    </view>
+    <input type="text" placeholder='请输入详细地址'></input>
+  </view>
+</view>
+<view class="mid">
+  <view class="title">商品信息</view>
+  <view class="goods-desc">
+    拯救者 R720-15IKBN 15.6英寸游戏笔记本 黑金 80WW0014CD
+  </view>
+  <view class="price">￥5899</view>
+</view>
+<view class="bottom-desc">下单后，系统后台会再次基于JD加个更新特权价。保证您的权益</view>
+<view class="btn">提交</view>

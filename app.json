@@ -1,11 +1,14 @@
 {
   "pages": [
+    "pages/tabBar/baby/baby",
     "pages/tabBar/home/home",
+    "pages/mall/buy/buy",
+    "pages/mall/experience/experience",
+    "pages/mall/goods/goods",
+    "pages/tabBar/mall/mall",
     "pages/match/eventInfo/eventInfo",
     "pages/tabBar/match/match",
     "pages/index/index",
-    "pages/tabBar/baby/baby",
-    "pages/tabBar/mall/mall",
     "pages/tabBar/mine/mine",
     "components/redPacket/redPacket",
     "pages/match/profitCheerRank/profitRank",
@@ -24,7 +27,10 @@
     "pages/rights/myRights/myRights",
     "pages/rights/bargain/bargain",
     "pages/rights/writeOff/writeOff",
-    "pages/common/sign/sign"
+    "pages/common/sign/sign",
+    "pages/common/enrollInfo/enrollInfo",
+    "pages/common/enrollPhone/enrollPhone",
+    "pages/common/enrollOne/enroll"
   ],
   "window": {
     "backgroundTextStyle": "light",

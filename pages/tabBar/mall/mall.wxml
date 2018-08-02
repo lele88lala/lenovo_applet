@@ -1,2 +1,24 @@
 <!--pages/tabBar/mall/mall.wxml-->
-<text>pages/tabBar/mall/mall.wxml</text>
+<view class="common-tab mall-tab">
+  <view data-type='1' class="{{showBlock == 1?'common-tab-one common-tab-on':'common-tab-one'}}" bindtap='toBlock'>轻薄</view>
+  <view data-type='2' class="{{showBlock == 2?'common-tab-two common-tab-on':'common-tab-two'}}" bindtap='toBlock'>游戏</view>
+  <view data-type='3' class="{{showBlock == 3?'common-tab-two common-tab-on':'common-tab-two'}}" bindtap='toBlock'>极致性价比</view>
+  <view data-type='4' class="{{showBlock == 4?'common-tab-two common-tab-on':'common-tab-two'}}" bindtap='toBlock'>周边</view>
+</view>
+<view class="goods-list">
+  <view class="goods-wrapper" bindtap='toGoods'>
+    <image src="../../../images/img_bg_match.png"></image>
+    <view class="tag">延保特权</view>
+  </view>
+  <view class="goods-wrapper">
+    <image src="../../../images/img_bg_match.png"></image>
+    <view class="tag">延保特权</view>
+  </view>
+  <view class="goods-wrapper">
+    <image src="../../../images/img_bg_match.png"></image>
+    <view class="tag">延保特权</view>
+  </view>
+  <!-- 超级特权 -->
+<cover-image bindtap='toMyRights' class="super-rights" src="../../../images/btn_exorbitant_privileges.png"></cover-image>
+<!-- 超级特权 -->
+</view>

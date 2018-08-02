@@ -1,33 +1,13 @@
-// pages/tabBar/mall/mall.js
+// pages/common/enrollInfo/enrollInfo.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    showBlock: '1'
+  
   },
-  toBlock: function (event) {
-    let types = event.currentTarget.dataset.type
-    if (types == 1) {
-      this.setData({ showBlock: 1 })
-    } else if (types == 2) {
-      this.setData({ showBlock: 2 })
-    } else if (types == 3) {
-      this.setData({ showBlock: 3 })
-    } else if (types == 4) {
-      this.setData({ showBlock: 4 })
-    }
-    console.log(types)
-  },
-  /**
-   * 到商品信息
-   */
-  toGoods: function () {
-    wx.navigateTo({
-      url: '../../mall/goods/goods',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

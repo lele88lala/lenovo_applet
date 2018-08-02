@@ -1,0 +1,57 @@
+<!--pages/common/enrollInfo/enrollInfo.wxml-->
+<view class="top">
+  <view class="title">球队信息</view>
+  <view class="name-w">
+    <view class="name-l">队名</view>
+    <view class="team-name">摩登兄弟队</view>
+  </view>
+  <view class="logo-w">
+    <view class="logo-l">LOGO</view>
+    <image src="../../../images/btn_add_photo.png"></image>
+  </view>
+</view>
+<view class="mid">
+  <view class="title">我的信息</view>
+  <view class="name-w">
+    <view class="name-l">
+      <text class="xing">*</text>
+      <text>姓名</text>
+    </view>
+    <view class="team-name user-name">李书豪(队长)</view>
+  </view>
+  <view class="name-w">
+    <view class="name-l">
+      <text class="xing">*</text>
+      <text>手机</text>
+    </view>
+    <view class="team-name user-name">13092898398</view>
+  </view>
+  <view class="name-w">
+    <view class="name-l">
+      <text class="xing">*</text>
+      <text>学校</text>
+    </view>
+    <view class="team-name user-name">西安交通大学</view>
+  </view>
+  <view class="name-w">
+    <view class="name-l">
+      <text class="xing">*</text>
+      <text>年级</text>
+    </view>
+    <input type="text" placeholder='请输入年级'></input>
+  </view>
+  <view class="name-w">
+    <view class="name-l">
+      <text class="xing">*</text>
+      <text>专业</text>
+    </view>
+    <input type="text" placeholder='请输入专业'></input>
+  </view>
+  <view class="name-w">
+    <view class="name-l">
+      <text class="q"> QQ</text>
+    </view>
+    <input type="text" placeholder='请输入您的QQ'></input>
+  </view>
+</view>
+<view class="btn">提交</view>

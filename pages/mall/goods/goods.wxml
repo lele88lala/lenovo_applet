@@ -1,0 +1,30 @@
+<!--pages/mall/goods/goods.wxml-->
+<!-- 轮播图 -->
+<view class="top-wrapper">
+<view class="tag">延保特权</view>
+<swiper indicator-dots="true" indicator-active-color="#fff" autoplay="true" interval="3000" duration="1000">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 轮播图 -->
+<view class="desc">
+  拯救者 R720-15IKBN 15.6英寸游戏笔记本 黑金80WW0014CD
+</view>
+<view class="price"><view class="now-price">￥5899</view><view class="jing-dong">京东：￥5999</view></view>
+</view>
+
+<view class="common-tab mall-tab">
+  <view data-type='1' class=" hui {{showBlock == 1?'common-tab-one common-tab-on-hui':'common-tab-one'}}" bindtap='toBlock'>产品详情</view>
+  <view data-type='2' class=" hui {{showBlock == 2?'common-tab-two common-tab-on-hui':'common-tab-two'}}" bindtap='toBlock'>规格参数</view>
+</view>
+
+<view class="desc-img">
+  <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg"></image>
+</view>
+
+<view class="bottom-btn">
+ <view class="ti-yan" bindtap='toExperience'>预约体验</view><view class="xia-dan" bindtap='toBuy'>直接下单</view>
+</view>

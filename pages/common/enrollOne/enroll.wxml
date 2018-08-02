@@ -1,0 +1,5 @@
+<!--pages/common/enroll/enroll.wxml-->
+<view class='wrapper'>
+  <image class="bg" src="../../../images/img_bg_sign_up.png"></image>
+  <image class="bt" bindtap='toEnrollPhone' src="../../../images/btn_sign_up.png"></image>
+</view>

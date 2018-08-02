@@ -121,5 +121,13 @@ Page({
     wx.navigateTo({
       url: '../../common/sign/sign',
     })
+  },
+  /**
+   * 到参赛报名页面
+   */
+  toEnroll: function () {
+    wx.navigateTo({
+      url: '../../common/enrollOne/enroll',
+    })
   }
 })
