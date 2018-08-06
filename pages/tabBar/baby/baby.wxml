@@ -15,7 +15,7 @@
     <view class="baby-name">琉璃书</view>
     <view class="baby-school">西安交通大学</view>
     <view class="fame">人气 5333</view>
-    <view class="gift-btn">送礼物</view>
+    <view class="gift-btn" bindtap='toBaby'>送礼物</view>
     <image class="top-icon" src="../../../images/crown_first_big.png"></image>
   </view>
   <view class="baby">
@@ -70,3 +70,6 @@
     <view class="gift-btn">送礼物</view>
   </view>
 </view>
+<!-- 超级特权 -->
+<cover-image bindtap='toEnrollBaby' class="enroll" src="../../../images/btn_baby_sign_up.png"></cover-image>
+<!-- 超级特权 -->

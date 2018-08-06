@@ -7,7 +7,22 @@ Page({
   data: {
   
   },
-
+  /**
+   * 到篮球宝贝页面
+   */
+  toBaby: function () {
+    wx.navigateTo({
+      url: '../../match/baby/baby',
+    })
+  },
+  /**
+   * 跳转到篮球宝贝参赛报名
+   */
+  toEnrollBaby: function () {
+    wx.navigateTo({
+      url: '../../common/enrollBaby/enrollBaby',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

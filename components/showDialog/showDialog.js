@@ -1,10 +1,13 @@
-// components/redPacket/redPacket.js
+// components/showDialog/showDialog.js
 Component({
+  options: {
+    multipleSlots: true
+  },
   /**
    * 组件的属性列表
    */
   properties: {
-
+    
   },
 
   /**

@@ -39,7 +39,7 @@
       <image src='../../../images/btn_share_small.png'></image>
       <image src='../../../images/btn_ranking_small.png'></image>
       <image src='../../../images/btn_list.png'></image>
-      <image src='../../../images/btn_rule.png'></image>
+      <image  bindtap='toStrategy' src='../../../images/btn_rule.png'></image>
     </view>
   </view>
 </view>

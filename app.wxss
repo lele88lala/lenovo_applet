@@ -68,7 +68,7 @@ page{
 }
 .common-user-fame{
   color:#929292;
-  font-size:27rpx;
+  font-size:26rpx;
   margin-top:10rpx;
 }
 .common-user-fame text{
@@ -103,7 +103,7 @@ page{
   display:block;
   font-size:27rpx;
   float:right;
-  margin-right:40rpx;
+  margin-right:30rpx;
   color:#929292;
 }
 /* tab共享样式 */

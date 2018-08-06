@@ -1,16 +1,14 @@
 {
   "pages": [
-    "pages/tabBar/baby/baby",
-    "pages/tabBar/home/home",
-    "pages/mall/buy/buy",
-    "pages/mall/experience/experience",
     "pages/mall/goods/goods",
     "pages/tabBar/mall/mall",
+    "pages/tabBar/home/home",
+    "pages/tabBar/baby/baby",
+    "pages/mall/buy/buy",
+    "pages/mall/experience/experience",
     "pages/match/eventInfo/eventInfo",
     "pages/tabBar/match/match",
-    "pages/index/index",
     "pages/tabBar/mine/mine",
-    "components/redPacket/redPacket",
     "pages/match/profitCheerRank/profitRank",
     "pages/home/level/level",
     "pages/home/enroll/enroll",
@@ -30,7 +28,11 @@
     "pages/common/sign/sign",
     "pages/common/enrollInfo/enrollInfo",
     "pages/common/enrollPhone/enrollPhone",
-    "pages/common/enrollOne/enroll"
+    "pages/common/enrollOne/enroll",
+    "pages/common/enrollBaby/enrollBaby",
+    "pages/match/baby/baby",
+    "pages/common/strategy/strategy",
+    "pages/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

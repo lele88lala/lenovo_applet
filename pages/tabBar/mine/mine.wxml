@@ -2,7 +2,7 @@
 <view class="common-top-back">
   <!-- 球员头部信息 -->
   <view class="common-user-info" wx:if="">
-    <image class="common-head-pic me-head" src="../../../images/home_btn_guess.png"></image>
+    <image  class="common-head-pic me-head" src="../../../images/home_btn_guess.png"></image>
     <view class="common-info-detail player-detail">
       <view class="common-name">李源</view>
       <view class="common-user-school">西北工业大学</view>
@@ -29,7 +29,7 @@
   <!-- 普通头部信息end -->
   <!-- 篮球宝贝头部信息 -->
   <view class="common-user-info">
-    <image class="common-head-pic baby-head" src="../../../images/home_btn_guess.png"></image>
+    <image bindtap='chooseImage' class="common-head-pic baby-head" src="../../../images/home_btn_guess.png"></image>
     <view class="common-info-detail baby-detail">
       <view class="common-name">李源</view>
       <view class="common-user-school">西北工业大学</view>
@@ -73,7 +73,7 @@
 <!-- 公共部分红包竞猜币end -->
 <!-- 篮球宝贝照片 -->
 <view class="shadow-lighter">
-  <text class="head-words baby-page-head-words">即将开赛</text>
+  <text class="head-words baby-page-head-words">我的照片</text>
   <view class="more-match">全部
     <image src="../../../images/btn_more.png"></image>
   </view>

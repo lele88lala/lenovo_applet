@@ -1,5 +1,5 @@
 <!--pages/index/index.wxml-->
-<view class="container">
+<!-- <view class="container">
     <dialog id='dialog' 
       title='我是标题' 
       content='恭喜你，学会了小程序组件' 
@@ -9,4 +9,29 @@
       bind:confirmEvent="makesure">
     </dialog>
     <button type="primary" bindtap="showDialog"> ClickMe! </button>
+</view> -->
+
+<!-- 引入组件 -->
+<!-- <import src="../../components/welCropper/welCropper.wxml" /> -->
+
+<!-- 调用组件 -->
+<!-- <template is="welCropper" data="{{data:cropperData, cropperMovableItems:cropperMovableItems, cropperChangableData:cropperChangableData}}"></template> -->
+<!-- 用于选择图片，传入cropper中 -->
+<!-- <button bindtap='selectTap' style="z-index:100">select image</button> -->
+
+<view class="wrapper" wx:if="{{!showXuan}}">
+  <image src="{{showImage.url}}" bindload="onImageLoad" style="width:{{showImage.width}}px;height:{{showImage.height}}px"></image>
+  <view class="canvas-wrapper">
+  <canvas canvas-id="canvasOne"  class="canvas-one" style="width:{{showImage.width}}px;height:{{showImage.height}}px"></canvas>
+  </view>
+  <movable-area class="move-area">
+    <movable-view class="move-view" x="{{x}}" y="{{y}}" scale scale-max="1" scal-min="0.5"  direction="all" bindchange="onChange" bindscale="onScale" style="width:{{moveViewWidth}}px;height:{{moveViewHeight}}px;">
+      <!-- <image style="height:50px;width:50px" src="../../images/1.png"></image> -->
+    </movable-view>
+  </movable-area>
+  <view class="bottom-w">
+    <view bindtap='cancelImg'>取消</view><view bindtap='jieDone'>完成</view>
+  </view>
 </view>
+<view bindtap='selectTap' wx:if="{{showXuan}}">选择</view>
+<image src="http://tmp/wx4d78a43163458260.o6zAJs4eliBGOtPZ3LSdpFsHDqnE.WoZGGvtkBMJj42998973bd15f963a71bd22b36c95bb4.png"></image>

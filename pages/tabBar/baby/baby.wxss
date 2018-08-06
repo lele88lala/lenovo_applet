@@ -68,7 +68,7 @@
 .baby .head-pic{
   width:200rpx;
   height:260rpx;
-  border:10rpx solid #e98ac8;
+  border:10rpx solid #92b7f8;
   border-radius: 10rpx;
 }
 .baby-name{
@@ -92,7 +92,7 @@
   border-radius: 20rpx;
   margin:0 auto;
   margin-top:20rpx;
-  box-shadow: 0 0 20rpx #dbdbdb;
+  box-shadow: 0 0 20rpx #a17e7e;
   padding:3rpx 0rpx;
 }
 .top-icon{
@@ -102,4 +102,12 @@
   top:-55rpx;
   left:50%;
   transform: translateX(-50%);
+}
+.enroll{
+  position:fixed;
+  width:164rpx;
+  height:167rpx;
+  right:10rpx;
+  bottom:70rpx;
+  z-index: 3;
 }

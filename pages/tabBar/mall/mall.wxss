@@ -11,13 +11,16 @@
   position:relative;
   height:410rpx;
   margin-top:20rpx;
+  background-color:#fff;
+  border-radius: 12rpx;
 }
 .goods-wrapper image{
   position:absolute;
   z-index: 1;
-  width:100%;
+  width:410rpx;
   height:410rpx;
-  border-radius: 12rpx;
+  left:50%;
+  transform: translateX(-50%);
 }
 .tag{
   position:absolute;

@@ -1,0 +1,19 @@
+<!--pages/common/strategy/strategy.wxml-->
+<view class="wrapper">
+<view class="top-title">夺奖攻略</view>
+<view class="block-title"><view class="l">1</view><view class="r">参与竞猜
+</view></view>
+<view class="desc">投注即可获得随机红包机会</view>
+<view class="desc">参与竞猜闯关，猜中每周规定场次评分现金大奖</view>
+<view class="block-title"><view class="l">2</view><view class="r">拉好友来助威
+</view></view>
+<view class="desc">邀请好友为选手加人气，好友锁甲人气值同样累积到</view>
+<view class="desc">您的助威积分，每个周期诸位积分</view>
+<view class="block-title"><view class="l">3</view><view class="r">每日签到任务
+</view></view>
+<view class="desc">每日签到可获得随机现金红包及竞猜币奖</view>
+<view class="desc">完成每日任务可获得随机现金红包及竞猜币奖励</view>
+<view class="block-title"><view class="l">4</view><view class="r">为选手加人气
+</view></view>
+<view class="desc">为选手加人气，可获得随机现金红包，最高200</view>
+</view>

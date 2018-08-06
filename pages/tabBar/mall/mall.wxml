@@ -9,7 +9,7 @@
   <view class="goods-wrapper" bindtap='toGoods'>
     <image src="../../../images/img_bg_match.png"></image>
     <view class="tag">延保特权</view>
-  </view>
+  </view> 
   <view class="goods-wrapper">
     <image src="../../../images/img_bg_match.png"></image>
     <view class="tag">延保特权</view>

@@ -12,9 +12,12 @@
         <view>西安交通大学勇士队</view>
         <view>西安交通大学勇士队</view>
       </view>
-      <view class="mid">
+      <!-- <view class="mid">
         <view>103</view>
         <view>80</view>
+      </view> -->
+      <view class="mid">
+        <view class="jing-cai-word">竞猜</view>
       </view>
       <view class="right">
         <view>已结束</view>
@@ -29,7 +32,7 @@
         <view>西安交通大学勇士队</view>
       </view>
       <view class="mid">
-        <view>103</view>
+        <view class="ying-on">103</view>
         <view>80</view>
       </view>
       <view class="right on-red">
@@ -48,7 +51,7 @@
         <view>西安交通大学勇士队</view>
       </view>
       <view class="mid">
-        <view>103</view>
+        <view class="ying-on">103</view>
         <view>80</view>
       </view>
       <view class="right">

@@ -343,7 +343,7 @@
   width:55rpx;
   height:0rpx;
   transform: translateX(-50%);
-  border-top: 55rpx solid #f9ce0f;
+  border-top: 55rpx solid hsl(49, 95%, 52%);
   border-right: 25rpx solid transparent;
   border-left:25rpx solid transparent;
 }

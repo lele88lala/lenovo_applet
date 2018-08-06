@@ -1,4 +1,3 @@
-
 {
   "navigationBarBackgroundColor": "#6e68f6",
   "navigationBarTextStyle": "white",
@@ -6,8 +5,5 @@
   "backgroundColor": "#fff",
   "backgroundTextStyle": "light",
   "enablePullDownRefresh": false,
-  "disableScroll": true,
-  "usingComponents": {
-    "dialog": "../../components/dialog/dialog"
-  }
+  "disableScroll": true
 }

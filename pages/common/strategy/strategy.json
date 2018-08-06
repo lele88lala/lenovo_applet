@@ -1,9 +1,9 @@
 {
   "navigationBarBackgroundColor": "#fff",
   "navigationBarTextStyle": "black",
-  "navigationBarTitleText": "宝贝",
+  "navigationBarTitleText": "夺奖攻略",
   "backgroundColor": "#fff",
   "backgroundTextStyle": "light",
   "enablePullDownRefresh": false,
-  "disableScroll": false
+  "disableScroll": true
 }

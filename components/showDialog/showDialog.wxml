@@ -1,0 +1,14 @@
+<!--components/showDialog/showDialog.wxml-->
+<view class="wrapper">
+  <view class="content">
+    <slot name="before"></slot>
+    <view class="bottom-content">
+      <image class="head-img" src="../../images/1.png"></image>
+      <view class="qun-w">
+        <view class="top">联想微信助手</view>
+        <view class="bot">加入福利群，更多好礼红包等你来领</view>
+      </view>
+      <view class="b-btn"><image src="../../images/icon_wechat.png"></image>复制微信号</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,168 @@
+<!--pages/match/player/player.wxml-->
+<view class="common-top-back">
+  <!-- 球员头部信息 -->
+  <view class="common-user-info">
+    <image class="common-head-pic me-head" src="../../../images/home_btn_guess.png"></image>
+    <view class="common-info-detail player-detail">
+      <view class="common-name">张满园</view>
+      <view class="common-user-school my-class">西北工业大学 大三</view>
+      <view class="common-user-team my-class">双子座 172cm</view>
+      <view class="common-user-team my-class">宣言 不负青春，热爱生活，热爱篮球和</view>
+      <view class="common-user-fame" bindtap='toFameRank'>人气
+        <text>864</text>
+        <text>排名3</text>
+        <text>查看全部榜单 ></text>
+      </view>
+    </view>
+    <view class="guan-zhu">+关注</view>
+  </view>
+  <!-- 球员头部信息end -->
+</view>
+<!-- 数据及留言 -->
+<view class="common-tab my-tab">
+  <view data-type='1' class="{{showBlock ==1?'common-tab-one common-tab-on':'common-tab-one'}}" bindtap='toBlock'>照片</view>
+  <view data-type='2' class="{{showBlock == 2?'common-tab-two common-tab-on':'common-tab-two'}}" bindtap='toBlock'>竞猜</view>
+  <view data-type='3' class="{{showBlock == 3?'common-tab-two common-tab-on':'common-tab-two'}}" bindtap='toBlock'>礼物</view>
+  <view data-type='4' class="{{showBlock == 4?'common-tab-two common-tab-on':'common-tab-two'}}" bindtap='toBlock'>留言</view>
+</view>
+<!-- 数据及留言end -->
+<!-- 照片部分 -->
+<scroll-view scroll-y="true" class="photo-wrapper" style="{{showBlock==1?'display:block':'display:none'}}">
+  <view style="display:none">
+    <image wx:for="{{images}}" wx:key="id" id="{{index}}" src="{{item.pic}}" bindload="onImageLoad"></image>
+  </view>
+  <view class="data-wrapper">
+    <view class="col-one">
+      <image wx:for="{{imagesL}}" src="{{item.pic}}" style="width:100%;height:{{item.height}}px !important"></image>
+    </view>
+    <view class="col-two">
+      <image wx:for="{{imagesR}}" src="{{item.pic}}" style="width:100%;height:{{item.height}}px !important"></image>
+    </view>
+  </view>
+</scroll-view>
+<!-- 照片部分end -->
+<!-- 留言模块 -->
+<view  style="{{showBlock==4?'display:block':'display:none'}}">
+  <scroll-view class="leave-scroll" scroll-y="true">
+    <view class="common-one-leave-words">
+      <view class="common-leave-top">
+        <image src="../../../images/btn_add_popularity.png"></image>
+        <view class="common-leave-info">
+          <view class="user-name">张同学</view>
+          <view class="time">09月06日 12：45</view>
+        </view>
+      </view>
+      <view class="common-leave-bottom">加油，最帅学长！</view>
+    </view>
+  </scroll-view>
+</view>
+<!-- 留言模块end -->
+<!-- 竞猜模块 -->
+<scroll-view scroll-y="true" class="data-scroll" style="{{showBlock==2?'display:block':'display:none'}}">
+  <view class="top-info">
+    <view class="match-name">02月03日 13:00</view>
+    <view class="event-info">
+      <view class="team">
+        <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+        <view>朝阳老炮队朝阳老炮队</view>
+      </view>
+      <view class="score-info">
+        <text class="score">106</text>
+        <text class="vs">vs</text>
+        <text class="score">102</text>
+      </view>
+      <view class="team">
+        <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+        <view>朝阳老炮队朝阳老炮队</view>
+      </view>
+    </view>
+    <view class="tou-info">投注
+      <text>"西安交通大学 胜"</text> 200竞猜币</view>
+  </view>
+</scroll-view>
+<!-- 竞猜模块end -->
+<!-- 礼物模块 -->
+<scroll-view scroll-y="true" class="player-scroll" style="{{showBlock==3?'display:block':'display:none'}}">
+  <view class="li-one">
+    <image src='../../../images/btn_share_purple.png'></image>
+    <view class="name">张同学</view>
+    <view class="w-one">送了她</view>
+    <view class="w-two">礼物</view>
+    <view class="w-three">x2</view>
+    <view class="w-four">09月06日 12:45</view>
+  </view>
+</scroll-view>
+<!-- 礼物模块end -->
+<!-- 加人气及分享图片 -->
+<view class="add-share-icon">
+  <cover-image bindtap='giveGift' src="../../../images/btn_baby_gift.png"></cover-image>
+  <cover-image src="../../../images/btn_share_purple.png"></cover-image>
+</view>
+<!-- 加人气及分享图片end -->
+<!-- 留言部分 -->
+<view class="common-leave-words-btn" bindtap='leaveWord' style="{{showBlock==4?'display:block':'display:none'}}">
+  <image src="../../../images/icon_leaving_message.png"></image>写留言</view>
+<view class="input-leave-words" style="{{showLeve===true&&showBlock==4?'display:block':'display:none'}}">
+  <view class="inp-w">
+    <input type='text' focus="{{focus}}"></input>
+  </view>
+  <view class="leave-done">发布</view>
+</view>
+<!-- 留言部分end -->
+<!-- 送礼弹出层 -->
+<view class="meng-ceng" bindtap='giveGift' wx:if="{{showGift}}"></view>
+<view  class=" li-wrapper {{showGift == true?'li-wrapper-tan':''}}">
+  <view class="top-title">
+    <view class="l">礼物</view>
+    <view class="r">800竞猜币</view>
+  </view>
+  <view class="g-img-w">
+    <view  class="g-w {{nowSelectGift==1?'g-w-on':''}}" data-num="1" bindtap='clickGift'>
+      <image src="../../../images/gift_1.png"></image>
+      <view class="coin-w"><image src="../../../images/small_gold_coin.png"></image>0</view>
+    </view>
+    <view class="g-w {{nowSelectGift==2?'g-w-on':''}}" data-num="2" bindtap='clickGift'>
+      <image src="../../../images/gift_2.png"></image>
+       <view class="coin-w"><image src="../../../images/small_gold_coin.png"></image>55</view>
+    </view>
+    <view  class="g-w {{nowSelectGift==3?'g-w-on':''}}" data-num="3" bindtap='clickGift'>
+      <image src="../../../images/gift_3.png"></image>
+       <view class="coin-w"><image src="../../../images/small_gold_coin.png"></image>66</view>
+    </view>
+    <view  class="g-w {{nowSelectGift==4?'g-w-on':''}}" data-num="4" bindtap='clickGift'>
+      <image src="../../../images/gift_4.png"></image>
+       <view class="coin-w"><image src="../../../images/small_gold_coin.png"></image>77</view>
+    </view>
+    <view  class="g-w {{nowSelectGift==5?'g-w-on':''}}" data-num="5" bindtap='clickGift'>
+      <image src="../../../images/gift_5.png"></image>
+       <view class="coin-w"><image src="../../../images/small_gold_coin.png"></image>88</view>
+    </view>
+    <view  class="g-w {{nowSelectGift==6?'g-w-on':''}}" data-num="6" bindtap='clickGift'>
+      <image src="../../../images/gift_6.png"></image>
+       <view class="coin-w"><image src="../../../images/small_gold_coin.png"></image>99</view>
+    </view>
+    <view  class="g-w {{nowSelectGift==7?'g-w-on':''}}" data-num="7" bindtap='clickGift'>
+      <image src="../../../images/gift_7.png"></image>
+       <view class="coin-w"><image src="../../../images/small_gold_coin.png"></image>108</view>
+    </view>
+    <view  class="g-w {{nowSelectGift==8?'g-w-on':''}}" data-num="8" bindtap='clickGift'>
+      <image src="../../../images/gift_8.png"></image>
+       <view class="coin-w"><image src="../../../images/small_gold_coin.png"></image>198</view>
+    </view>
+    <view  class="g-w {{nowSelectGift==9?'g-w-on':''}}" data-num="9" bindtap='clickGift'>
+      <image src="../../../images/gift_9.png"></image>
+       <view class="coin-w"><image src="../../../images/small_gold_coin.png"></image>520</view>
+    </view>
+    <view  class="g-w {{nowSelectGift==10?'g-w-on':''}}" data-num="10" bindtap='clickGift'>
+      <image src="../../../images/gift_10.png"></image>
+       <view class="coin-w"><image src="../../../images/small_gold_coin.png"></image>666</view>
+    </view>
+  </view>
+  <view class="bottom-btn">
+    <view class="b-l">
+      <view class="left-jia-jian"><text class="jian" data-types="1" bindtap='giftCountChange'>-</text><text class="count">{{giftCount}}</text><text class="jia" data-types="2" bindtap='giftCountChange'>+</text></view>
+    </view>
+    <view class="b-r">赠送</view>
+  </view>
+</view>
+<!-- 送礼弹出层 end -->

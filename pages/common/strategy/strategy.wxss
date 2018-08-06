@@ -1,0 +1,48 @@
+/* pages/common/strategy/strategy.wxss */
+.wrapper{
+  width:100%;
+  height:100vh;
+  background-color:#363374;
+  padding-top:70rpx;
+}
+.top-title{
+  width:95%;
+  background:linear-gradient(to right,#6e68f6,#e347aa);
+  margin:0 auto;
+  color:#f7ba3b;
+  text-align: center;
+  border-radius: 12rpx;
+  height:80rpx;
+  line-height: 80rpx;
+  font-size:39rpx;
+  box-shadow: 0 0 20 #dbdbdb;
+}
+.block-title{
+  width:90%;
+  margin:0 auto;
+  margin-top:60rpx;
+}
+.block-title .l{
+  display:inline-block;
+  border:1rpx solid #f7ba3b;
+  border-radius: 50%;
+  color:#f7ba3b;
+  width:30rpx;
+  height:30rpx;
+  font-size:25rpx;
+  text-align: center;
+  vertical-align: middle;
+}
+.block-title .r{
+  display:inline-block;
+  color:#fff;
+  font-size:35rpx;
+  margin-left:20rpx;
+}
+.desc{
+  color:#fff;
+  font-size:25rpx;
+  width:75%;
+  margin:0 auto;
+  margin-top:10rpx;
+}

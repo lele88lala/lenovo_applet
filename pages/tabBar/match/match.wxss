@@ -23,7 +23,7 @@
   height:90rpx;
   line-height: 90rpx;
   color:#929292;
-  font-size:27rpx;
+  font-size:28rpx;
   text-align: center;
 }
 .match-wrapper{
@@ -51,7 +51,7 @@
 .match-wrapper .one-match-block .left{
   display:inline-block;
   width:50%;
-  color:#5e5e5e;
+  color:#333;
   font-size:32rpx;
   text-align: center;
   vertical-align: middle;
@@ -79,5 +79,13 @@
   vertical-align: middle;
 }
 .on-red{
-  color:red !important;
+  color:#f55353 !important;
+}
+.jing-cai-word{
+  color:#6e68f6;
+  transform: rotate(-10deg);
+  text-shadow: 3rpx 3rpx 10rpx #e347aa;
+}
+.ying-on{
+  color:#333;
 }
