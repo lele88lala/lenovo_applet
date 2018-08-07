@@ -25,7 +25,7 @@
   <canvas canvas-id="canvasOne"  class="canvas-one" style="width:{{showImage.width}}px;height:{{showImage.height}}px"></canvas>
   </view>
   <movable-area class="move-area">
-    <movable-view class="move-view" x="{{x}}" y="{{y}}" scale scale-max="1" scal-min="0.5"  direction="all" bindchange="onChange" bindscale="onScale" style="width:{{moveViewWidth}}px;height:{{moveViewHeight}}px;">
+    <movable-view class="move-view" x="{{x}}" y="{{y}}"   direction="all" bindchange="onChange" bindscale="onScale" style="width:{{moveViewWidth}}px;height:{{moveViewHeight}}px;">
       <!-- <image style="height:50px;width:50px" src="../../images/1.png"></image> -->
     </movable-view>
   </movable-area>

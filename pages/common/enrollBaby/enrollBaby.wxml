@@ -1,49 +1,67 @@
 <!--pages/common/enrollBaby/enrollBaby.wxml-->
-<view class="top">
-  <view class="title">个人信息</view>
-  <view class="input-w">
-    <view class="lb">姓名</view>
-    <input type="text" placeholder='请输入姓名'></input>
-  </view>
-  <view class="input-w">
-    <view class="lb">手机</view>
-    <input type="text" placeholder='请输入手机号'></input>
-  </view>
-  <picker class="input-w">
-    <view class="lb">学校</view>
-    <view class="right-w">西安交通大学
-      <image src="../../../images/btn_more.png"></image>
+<view  wx:if="{{showXuan}}">
+  <view class="top">
+    <view class="title">个人信息</view>
+    <view class="input-w">
+      <view class="lb">姓名</view>
+      <input type="text" placeholder='请输入姓名'></input>
     </view>
-  </picker>
-  <view class="input-w">
-    <view class="lb">年级</view>
-    <input type="text" placeholder='请输入身高'></input>
-  </view>
-  <view class="input-w">
-    <view class="lb">身高(cm)</view>
-    <input class="height-input" type="text" placeholder='请输入姓名'></input>
-  </view>
-  <picker class="input-w">
-    <view class="lb">星座</view>
-    <view class="right-w">狮子座
-      <image src="../../../images/btn_more.png"></image>
+    <view class="input-w">
+      <view class="lb">手机</view>
+      <input type="text" placeholder='请输入手机号'></input>
     </view>
-  </picker>
-</view>
-<view class="bottom-block">
-  <view class="block-one me-xuan">
-    <text class="head-words">宣言</text>
+    <picker class="input-w">
+      <view class="lb">学校</view>
+      <view class="right-w">西安交通大学
+        <image src="../../../images/btn_more.png"></image>
+      </view>
+    </picker>
+    <view class="input-w">
+      <view class="lb">年级</view>
+      <input type="text" placeholder='请输入身高'></input>
+    </view>
+    <view class="input-w">
+      <view class="lb">身高(cm)</view>
+      <input class="height-input" type="text" placeholder='请输入姓名'></input>
+    </view>
+    <picker class="input-w">
+      <view class="lb">星座</view>
+      <view class="right-w">狮子座
+        <image src="../../../images/btn_more.png"></image>
+      </view>
+    </picker>
   </view>
-  <view class="text-a">
-    <textarea value="逆风翻盘，向阳而生"></textarea>
+  <view class="bottom-block">
+    <view class="block-one me-xuan">
+      <text class="head-words">宣言</text>
+    </view>
+    <view class="text-a">
+      <textarea value="逆风翻盘，向阳而生"></textarea>
+    </view>
+  </view>
+  <view class="head-w">
+    <view class="head-w-l">
+      <view class="head-title">头像</view>
+      <view class="desc">美美的自拍照</view>
+      <view class="desc">可以让更多人关注到你哦！</view>
+    </view>
+    <image wx:if="{{!showHeadImg}}" class="head-w-r" src="../../../images/btn_add_photo.png" bindtap='selectTap'></image>
+    <image wx:if="{{showHeadImg}}" class="head-img" src="{{showImage.url}}" bindtap='selectTap'></image>
+  </view>
+  <view class="bottom-btn">提交</view>
+</view>
+<!-- 截图 -->
+<view class="wrapper" wx:if="{{!showXuan}}">
+  <image src="{{showImage.url}}" bindload="onImageLoad" style="width:{{showImage.width}}px;height:{{showImage.height}}px"></image>
+  <view class="canvas-wrapper">
+  <canvas canvas-id="canvasOne"  class="canvas-one" style="width:{{showImage.width}}px;height:{{showImage.height}}px"></canvas>
+  </view>
+  <movable-area class="move-area">
+    <movable-view class="move-view" x="{{x}}" y="{{y}}"   direction="all" bindchange="onChange" bindscale="onScale" style="width:{{moveViewWidth}}px;height:{{moveViewHeight}}px;">
+      <!-- <image style="height:50px;width:50px" src="../../images/1.png"></image> -->
+    </movable-view>
+  </movable-area>
+  <view class="bottom-w">
+    <view bindtap='cancelImg'>取消</view><view bindtap='jieDone'>完成</view>
   </view>
 </view>
-<view class="head-w">
-  <view class="head-w-l">
-    <view class="head-title">头像</view>
-    <view class="desc">美美的自拍照</view>
-    <view class="desc">可以让更多人关注到你哦！</view>
-  </view>
-  <image  class="head-w-r" src="../../../images/btn_add_photo.png"></image>
-</view>
-<view class="bottom-btn">提交</view>

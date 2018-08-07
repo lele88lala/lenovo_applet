@@ -15,8 +15,6 @@ Page({
     x:40,
     y:40,
     scale:1,
-    // moveViewWidth:345,
-    // moveViewHeight:450,
     moveViewWidth: '',
     moveViewHeight: ''
   },
@@ -61,8 +59,8 @@ Page({
     wx.canvasToTempFilePath({
       x: that.data.x,
       y: that.data.y,
-      width: that.data.showImage*that.data.scale,
-      height: that.data.moveViewHeight*that.data.scale,
+      width: that.data.moveViewWidth * that.data.scale,
+      height: that.data.moveViewHeight * that.data.scale,
       destWidth: that.data.moveViewWidth * that.data.scale,
       destHeight: that.data.moveViewHeight * that.data.scale,
       canvasId: 'canvasOne',

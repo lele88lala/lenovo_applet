@@ -13,16 +13,17 @@
   left:50%;
   transform: translate(-50%,-50%);
   z-index:5;
+  margin-top:40rpx;
 }
 .canvas-one{
   position:absolute;
   top:50%;
   left:50%;
-  transform: translate(-50%,-50%);
-
+  transform: translate(-50%,-50%); 
   width:90%;
   margin:0 auto;
   vertical-align: middle;
+  margin-top:40rpx;
 
 }
 .canvas-wrapper{

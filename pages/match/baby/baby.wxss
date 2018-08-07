@@ -256,7 +256,7 @@ scroll-view{
 /* 送礼物弹层 */
 .li-wrapper{
   position:fixed;
-  bottom:-520rpx;
+  bottom:-525rpx;
   transition: bottom .5s;
   z-index: 2;
 }

@@ -87,7 +87,7 @@
 </scroll-view>
 <!-- 即将开赛 -->
 <!-- 篮球宝贝 -->
-<view class="common-words">
+<view class="common-words" bindtap='toBaby'>
   <text class="head-words">篮球宝贝</text>
   <view class="more-match">查看更多
     <image src="../../../images/btn_more.png"></image>

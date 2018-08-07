@@ -1,8 +1,10 @@
 {
   "pages": [
+    "pages/tabBar/home/home",
+    "pages/common/enrollBaby/enrollBaby",
+    "pages/index/index",
     "pages/mall/goods/goods",
     "pages/tabBar/mall/mall",
-    "pages/tabBar/home/home",
     "pages/tabBar/baby/baby",
     "pages/mall/buy/buy",
     "pages/mall/experience/experience",
@@ -29,10 +31,8 @@
     "pages/common/enrollInfo/enrollInfo",
     "pages/common/enrollPhone/enrollPhone",
     "pages/common/enrollOne/enroll",
-    "pages/common/enrollBaby/enrollBaby",
     "pages/match/baby/baby",
-    "pages/common/strategy/strategy",
-    "pages/index/index"
+    "pages/common/strategy/strategy"
   ],
   "window": {
     "backgroundTextStyle": "light",
