@@ -1,0 +1,13 @@
+<!--pages/tabBar/auth/auth.wxml-->
+<!-- 微信未授权 begin -->
+<view class="no-bind">
+  <view class="no-bind-info">
+    <image src='../../src/images/img_no_data.png'></image>
+    <view class="tip-one">您还未授权</view>
+    <!-- <view class="tip-two">对小程序进行授权，查看我的课程信息</view> -->
+  </view>
+  <view class="bind-btn">
+    <button class='get-userInfo-btn' type='primary' open-type='getUserInfo' bindgetuserinfo="getFirstInfo" formType="submit">允许授权</button>
+  </view>
+</view>
+<!-- 微信未授权 end -->

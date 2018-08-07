@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/tabBar/home/home",
+    "pages/tabBar/auth/auth",
     "pages/common/enrollBaby/enrollBaby",
     "pages/index/index",
     "pages/mall/goods/goods",
