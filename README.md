@@ -1,4 +1,4 @@
-## 小程序
+## 小程序部分页面
 
 ### 首页
 ![avatar](https://github.com/lele88lala/lenovo_applet/blob/master/images/0-1-%E9%A6%96%E9%A1%B5.png)
@@ -8,9 +8,6 @@
 
 ### 篮球宝贝页面
 ![avatar](https://github.com/lele88lala/lenovo_applet/blob/master/images/5-3-1-%E6%88%91%E7%9A%84-%E7%AF%AE%E7%90%83%E5%AE%9D%E8%B4%9D.png)
-
-### 商城
-![avatar](https://github.com/lele88lala/lenovo_applet/blob/master/images/4-1-%E8%81%94%E6%83%B3%E5%95%86%E5%9F%8E.png)
 
 ### 我的
 ![avatar](https://github.com/lele88lala/lenovo_applet/blob/master/images/5-3-1-%E6%88%91%E7%9A%84-%E7%AF%AE%E7%90%83%E5%AE%9D%E8%B4%9D.png)
